@@ -525,10 +525,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
+  HasSourceProject: 0
+  HasPlatforms: 0
   sourceProjectPath: ../FMOD/GamesAudioFmod/GamesAudioFmod.fspro
-  sourceBankPath: ../FMOD/GamesAudioFmod/Build
+  sourceBankPath: ../FMOD/GamesAudioFmod
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

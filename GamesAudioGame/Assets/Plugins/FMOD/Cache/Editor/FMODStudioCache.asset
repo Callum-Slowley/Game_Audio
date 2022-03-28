@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Build/Desktop/Master.strings.bank
   m_EditorClassIdentifier: 
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
-  Name: Master.strings
+  Name: Build/Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637829370310000000
+  lastModified: 637840929281869750
   FileSizes:
-  - Name: Desktop
+  - Name: 
     Value: 712
   Exists: 1
 --- !u!114 &11400000
@@ -41,7 +41,7 @@ MonoBehaviour:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637829370310000000
+  cacheTime: 637840929281869750
   cacheVersion: 10
 --- !u!114 &1283715061741343033
 MonoBehaviour:
@@ -58,8 +58,6 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637829370310000000
-  FileSizes:
-  - Name: Desktop
-    Value: 1036
+  lastModified: 637840929281809774
+  FileSizes: []
   Exists: 1
