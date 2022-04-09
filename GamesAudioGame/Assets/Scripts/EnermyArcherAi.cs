@@ -8,6 +8,7 @@ public class EnermyArcherAi : MonoBehaviour
     public NavMeshAgent agent;
     public Transform player;
     public LayerMask isGround, isPlayer;
+    public GameObject firingPoint;
     public GameObject projectile;
     //patrolling
     public Vector3 walkPoint;
@@ -62,19 +63,20 @@ public class EnermyArcherAi : MonoBehaviour
     }
     private void ChasePlayer()
     {
-        agent.SetDestination(player.position);
+        agent.SetDestination(new Vector3(player.position.x,transform.position.y,player.position.z));
     }
     private void AttackPlayer()
     {
         agent.SetDestination(transform.position);
-        transform.LookAt(player);
+        //looks at the player as if it was on the ground
+        transform.LookAt((new Vector3(player.position.x, transform.position.y, player.position.z)));
+        //however the firing point still looks at the player to shoot at it
+        firingPoint.transform.LookAt(player);
 
         if (!attacked)
         {
-            Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
-
+            Rigidbody rb = Instantiate(projectile, firingPoint.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            rb.AddForce(firingPoint.transform.forward * 32f, ForceMode.Impulse);
             attacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
@@ -82,5 +84,15 @@ public class EnermyArcherAi : MonoBehaviour
     private void ResetAttack()
     {
         attacked = false;
+    }
+
+    //used to visualise stuff
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, sightRange);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }
