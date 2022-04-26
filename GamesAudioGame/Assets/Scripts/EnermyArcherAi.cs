@@ -7,6 +7,7 @@ public class EnermyArcherAi : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Transform player;
+    public Animator animator;
     public LayerMask isGround, isPlayer;
     public GameObject firingPoint;
     public GameObject projectile;
@@ -52,6 +53,7 @@ public class EnermyArcherAi : MonoBehaviour
         if (!walkPointSet) SearchWalkPoint();
         else
         {
+            animator.SetBool("IsWalking", true);
             agent.SetDestination(walkPoint);
         }
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
@@ -59,15 +61,18 @@ public class EnermyArcherAi : MonoBehaviour
         if(distanceToWalkPoint.magnitude < 1f)
         {
             walkPointSet = false;
+            animator.SetBool("IsWalking", false);
         }
     }
     private void ChasePlayer()
     {
         agent.SetDestination(new Vector3(player.position.x,transform.position.y,player.position.z));
+        animator.SetBool("IsWalking", true);
     }
     private void AttackPlayer()
     {
         agent.SetDestination(transform.position);
+        animator.SetBool("IsWalking", false);
         //looks at the player as if it was on the ground
         transform.LookAt((new Vector3(player.position.x, transform.position.y, player.position.z)));
         //however the firing point still looks at the player to shoot at it
@@ -75,17 +80,23 @@ public class EnermyArcherAi : MonoBehaviour
 
         if (!attacked)
         {
-            Rigidbody rb = Instantiate(projectile, firingPoint.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(firingPoint.transform.forward * 32f, ForceMode.Impulse);
-            attacked = true;
-            Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            animator.SetBool("IsAttacking", true);
         }
     }
     private void ResetAttack()
     {
         attacked = false;
+        animator.SetBool("IsAttacking", false);
     }
 
+    public void attack()
+    {
+        Rigidbody rb = Instantiate(projectile, firingPoint.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+        rb.AddForce(firingPoint.transform.forward * 32f, ForceMode.Impulse);
+        rb.transform.LookAt(player);
+        attacked = true;
+        Invoke(nameof(ResetAttack), timeBetweenAttacks);
+    }
     //used to visualise stuff
     void OnDrawGizmosSelected()
     {
