@@ -9609,3 +9609,64 @@ Received Import Request.
 Start importing Assets/PolygonMiniFantasyCharacters/Textures/PolygonMinis_Texture_Blue_B.png using Guid(72e9dc151dba3eb468e6d762857dc96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8cd3e590ec36651996303dc37f9e32') in 0.007823 seconds
   Import took 0.014218 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2691.154834 seconds.
+  path: Assets/Animations/Shoot.fbx
+  artifactKey: Guid(1826fed32bda9984c857e7655b3e3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Shoot.fbx using Guid(1826fed32bda9984c857e7655b3e3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6807a67fa51cc41412846008f1a70b29') in 0.017702 seconds
+  Import took 0.022779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Animations/StandingIdle.fbx
+  artifactKey: Guid(8c808d9b553be3946a2e451d06508466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/StandingIdle.fbx using Guid(8c808d9b553be3946a2e451d06508466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5498df6885cee3b05bec049ff858b8') in 0.005848 seconds
+  Import took 0.010944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Animations/Walk.fbx
+  artifactKey: Guid(1f6e8e0bffb608b4baed4daa09fa29cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Walk.fbx using Guid(1f6e8e0bffb608b4baed4daa09fa29cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3a202934053057aaeca9d98b4ebbe1') in 0.006881 seconds
+  Import took 0.012128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.899476 seconds.
+  path: Assets/Presets
+  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a116e3d8066d532e61682f07343798c6') in 0.006830 seconds
+  Import took 0.011902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.033688 seconds.
+  path: Assets/Prefabs/TurnipSeller.prefab
+  artifactKey: Guid(81814974663a34239b34ba1efa15bf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnipSeller.prefab using Guid(81814974663a34239b34ba1efa15bf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5c89c014687e7c3f0c179c144989ee') in 0.133135 seconds
+  Import took 0.139098 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 330.8 MB.
+System memory in use after: 331.0 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 4273.
+Total: 2.695043 ms (FindLiveObjects: 0.348982 ms CreateObjectMapping: 0.166718 ms MarkObjects: 2.078078 ms  DeleteObjects: 0.099599 ms)
+
