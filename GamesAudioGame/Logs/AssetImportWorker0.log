@@ -9670,3 +9670,24 @@ System memory in use after: 331.0 MB.
 Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 4273.
 Total: 2.695043 ms (FindLiveObjects: 0.348982 ms CreateObjectMapping: 0.166718 ms MarkObjects: 2.078078 ms  DeleteObjects: 0.099599 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002068 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 331.2 MB.
+System memory in use after: 331.3 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 4276.
+Total: 2.404371 ms (FindLiveObjects: 0.358734 ms CreateObjectMapping: 0.132649 ms MarkObjects: 1.816698 ms  DeleteObjects: 0.095574 ms)
+
