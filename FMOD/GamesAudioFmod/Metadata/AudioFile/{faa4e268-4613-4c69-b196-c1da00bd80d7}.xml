@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{db7c7c1d-40c5-4f31-81d5-a5b96471bd91}">
+	<object class="AudioFile" id="{faa4e268-4613-4c69-b196-c1da00bd80d7}">
 		<property name="assetPath">
-			<value>DragonFootStepsSand5.wav</value>
+			<value>DragonFootStepsRock7.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.37501133786848073</value>
+			<value>0.5</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>
