@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33587662166522720}
   - component: {fileID: 23626237034644128}
   - component: {fileID: 508188525215597474}
+  - component: {fileID: 310736619027815996}
   m_Layer: 0
   m_Name: SM_Bld_Knights_Tent_01
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 5fb02d9ec4a0440499e42a0366b5c20c, type: 3}
+--- !u!208 &310736619027815996
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613028843268840}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.846, y: 0.418, z: 0.514}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.418, z: 0}
+  m_TimeToStationary: 0.5

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33540218844576312}
   - component: {fileID: 23015185367399802}
   - component: {fileID: 490290351253914234}
+  - component: {fileID: 7311673523610860642}
   m_Layer: 0
   m_Name: SM_Tile_Cube_Hill_07
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d4d0b3e62335559408262baa2891a400, type: 3}
+--- !u!208 &7311673523610860642
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438846569682568}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.5, y: 0.90000004, z: 2.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.46800002, z: 0}
+  m_TimeToStationary: 0.5

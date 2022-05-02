@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33981183266496786}
   - component: {fileID: 23409809297086088}
   - component: {fileID: 1962033383963775607}
+  - component: {fileID: 5319741702671803935}
   m_Layer: 0
   m_Name: SM_Bld_Knights_House_03
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f3ee07bab3c05df478c29fae3936f661, type: 3}
+--- !u!208 &5319741702671803935
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516201072267530}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.633, y: 0.81000006, z: 0.54800004}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.81000006, z: -0.015000001}
+  m_TimeToStationary: 0.5

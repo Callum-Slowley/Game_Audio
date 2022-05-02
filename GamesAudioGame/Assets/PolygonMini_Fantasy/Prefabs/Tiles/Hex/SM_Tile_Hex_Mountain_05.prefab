@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33552783110128774}
   - component: {fileID: 23210269548881304}
   - component: {fileID: 6649287064588381154}
+  - component: {fileID: 1153487380169808528}
   m_Layer: 0
   m_Name: SM_Tile_Hex_Mountain_05
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 10e75a79b79261d46affcd8fa1bcb8fe, type: 3}
+--- !u!208 &1153487380169808528
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167479713912840}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.4580002, y: 1.108, z: 2.2680001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.1, y: 1.108, z: 0.030000001}
+  m_TimeToStationary: 0.5

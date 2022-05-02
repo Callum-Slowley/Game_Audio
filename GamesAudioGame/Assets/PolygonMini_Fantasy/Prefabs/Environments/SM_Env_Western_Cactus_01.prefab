@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33703382258128150}
   - component: {fileID: 23978187226970612}
   - component: {fileID: 3836189415151318913}
+  - component: {fileID: 3442483753447158948}
   m_Layer: 0
   m_Name: SM_Env_Western_Cactus_01
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 304f67f91559c4a4db08be30c1b83e8c, type: 3}
+--- !u!208 &3442483753447158948
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557201960472778}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.272, y: 0.395, z: 0.08800001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.013, y: 0.395, z: 0.002}
+  m_TimeToStationary: 0.5

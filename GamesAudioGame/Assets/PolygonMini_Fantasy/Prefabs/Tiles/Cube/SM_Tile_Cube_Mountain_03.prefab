@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33515161878690292}
   - component: {fileID: 23484417884411464}
   - component: {fileID: 759106858646451571}
+  - component: {fileID: 1814842908739707229}
   m_Layer: 0
   m_Name: SM_Tile_Cube_Mountain_03
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f19e94f87cb16834ebfe57ce02b1417d, type: 3}
+--- !u!208 &1814842908739707229
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539129204668376}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.1390002, y: 0.892, z: 2.3140001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.115, y: 0.892, z: 0.048}
+  m_TimeToStationary: 0.5
