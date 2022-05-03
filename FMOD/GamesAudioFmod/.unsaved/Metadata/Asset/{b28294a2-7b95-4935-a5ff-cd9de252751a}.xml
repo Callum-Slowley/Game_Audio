@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{b28294a2-7b95-4935-a5ff-cd9de252751a}">
+		<property name="assetPath">
+			<value>NPC Phrases/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>
+		</relationship>
+	</object>
+</objects>
