@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour{
     
     public FMOD.Studio.EventInstance DragonFootsteps;
     
+    private FMOD.Studio.EventInstance idle_lines;
     
     public Rigidbody rb;
     public bool isFlying;
@@ -31,6 +32,8 @@ public class Movement : MonoBehaviour{
     private float maxPitch = 90f;
     
     public float speed;
+    public float maxHeight,minHeight;
+    public float height;
 
     // Start is called before the first frame update
     void Start()
@@ -153,6 +156,24 @@ public class Movement : MonoBehaviour{
         DragonFootsteps.start();
         DragonFootsteps.release();
     }
+    
+        public void SelectAndPlayLine()
+    {
+        PlayLine(height);
+    }
+        private void PlayLine(float height)
+    {
+        Debug.Log("Height " + height);
+        idle_lines = FMODUnity.RuntimeManager.CreateInstance("event:/DragonSounds/DragonDialogue");
+        idle_lines.setParameterByName("Height", height);
+        idle_lines.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.gameObject));
+        if (speed == 0)
+        {
+            idle_lines.start();
+            idle_lines.release();
+        }
+    }
+    
     void OnDrawGizmosSelected(){
                 Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector3.down* 10f);
