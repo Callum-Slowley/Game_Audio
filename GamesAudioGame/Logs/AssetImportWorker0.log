@@ -1,200 +1,119 @@
 Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Unity.app/Contents/MacOS/Unity
+D:\unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/s19112409/Documents/GitHub/Game_Audio/GamesAudioGame
+D:/documents/Ganes Audio Dev(github)/Game_Audio/GamesAudioGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65320
-Successfully changed project path to: /Users/s19112409/Documents/GitHub/Game_Audio/GamesAudioGame
-/Users/s19112409/Documents/GitHub/Game_Audio/GamesAudioGame
+55676
+Successfully changed project path to: D:/documents/Ganes Audio Dev(github)/Game_Audio/GamesAudioGame
+D:/documents/Ganes Audio Dev(github)/Game_Audio/GamesAudioGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 91.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 154.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/s19112409/Documents/GitHub/Game_Audio/GamesAudioGame/Assets
+[Subsystems] Discovering subsystems at path D:/unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/documents/Ganes Audio Dev(github)/Game_Audio/GamesAudioGame/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-03 15:04:05.466 Unity[33139:32156147] iMac preferred device: AMD Radeon Pro 575 (high power)
-2022-05-03 15:04:05.466 Unity[33139:32156147] Metal devices available: 1
-2022-05-03 15:04:05.466 Unity[33139:32156147] 0: AMD Radeon Pro 575 (high power)
-2022-05-03 15:04:05.466 Unity[33139:32156147] Using device AMD Radeon Pro 575 (high power)
-Initializing Metal device caps: AMD Radeon Pro 575
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   30.0.14.9729
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56139
+Mono path[0] = 'D:/unity/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000496 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 71.64 ms, found 3 plugins.
+Register platform support module: D:/unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002258 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.950 seconds
+- Completed reload, in  2.586 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002340 seconds.
+Registered in 0.008523 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 81.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.145 seconds
+- Completed reload, in  2.088 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 238.3 MB.
-System memory in use after: 238.5 MB.
+Unloading 3509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 161.4 MB.
 
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3897.
-Total: 2.162405 ms (FindLiveObjects: 0.316929 ms CreateObjectMapping: 0.156688 ms MarkObjects: 1.586159 ms  DeleteObjects: 0.101955 ms)
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 3887.
+Total: 6.925200 ms (FindLiveObjects: 1.124900 ms CreateObjectMapping: 0.390000 ms MarkObjects: 2.413200 ms  DeleteObjects: 2.996100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/World.unity
-  artifactKey: Guid(4fbeb9bbd8896441c942d8707563a73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/World.unity using Guid(4fbeb9bbd8896441c942d8707563a73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c2d8914a7bd349d81e00f68372f01c') in 0.013167 seconds
-  Import took 0.017749 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002300 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL
-Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.dylib
-Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.so
-Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.bundle
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 227.7 MB.
-System memory in use after: 227.9 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3900.
-Total: 2.410340 ms (FindLiveObjects: 0.336683 ms CreateObjectMapping: 0.172810 ms MarkObjects: 1.774799 ms  DeleteObjects: 0.123792 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001959 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.1 MB.
-System memory in use after: 228.3 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3903.
-Total: 2.067503 ms (FindLiveObjects: 0.306159 ms CreateObjectMapping: 0.149583 ms MarkObjects: 1.521967 ms  DeleteObjects: 0.088972 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002232 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.5 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3906.
-Total: 2.055172 ms (FindLiveObjects: 0.315923 ms CreateObjectMapping: 0.144817 ms MarkObjects: 1.498783 ms  DeleteObjects: 0.094858 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002181 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.038 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 229.0 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3909.
-Total: 2.052289 ms (FindLiveObjects: 0.310638 ms CreateObjectMapping: 0.155509 ms MarkObjects: 1.507111 ms  DeleteObjects: 0.078202 ms)
+  path: Assets/VFX/VFX_DragonBreath.vfx
+  artifactKey: Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/VFX_DragonBreath.vfx using Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8235ddd8ba2499bee146a2c9d2175ce') in 0.156248 seconds
+  Import took 0.168474 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 454.918573 seconds.
-  path: Assets/Dragon+animations/DragonAnimations.controller
-  artifactKey: Guid(1044b2788b6accf45b980710789d3304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dragon+animations/DragonAnimations.controller using Guid(1044b2788b6accf45b980710789d3304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5f9b935e758b36bb47e36a8a49536b') in 0.928654 seconds
-  Import took 0.934535 seconds .
+  Time since last request: 27.335373 seconds.
+  path: Assets/Shaders/DragonBreath.shadergraph
+  artifactKey: Guid(1a58287351db9bb48ae780f9a286c6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/DragonBreath.shadergraph using Guid(1a58287351db9bb48ae780f9a286c6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172fa13df5951a431b18b1c758233509') in 0.033308 seconds
+  Import took 0.040915 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.616054 seconds.
-  path: Assets/Dragon+animations/DragonFlying.anim
-  artifactKey: Guid(edcc100ea94e0614cb82d91f6073082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dragon+animations/DragonFlying.anim using Guid(edcc100ea94e0614cb82d91f6073082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5778146edde3396b929083dc22cb84') in 0.255258 seconds
-  Import took 0.260568 seconds .
+  Time since last request: 40.855452 seconds.
+  path: Assets/VFX/VFX_DragonBreath.vfx
+  artifactKey: Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/VFX_DragonBreath.vfx using Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b877a9b3a901cbec08724446b2be91a2') in 0.008049 seconds
+  Import took 0.041539 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002253 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 237.8 MB.
-System memory in use after: 238.0 MB.
+Received Import Request.
+  Time since last request: 0.552993 seconds.
+  path: Assets/VFX/VFX_DragonBreath.vfx
+  artifactKey: Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/VFX_DragonBreath.vfx using Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b877a9b3a901cbec08724446b2be91a2') in 0.008285 seconds
+  Import took 0.019473 seconds .
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3912.
-Total: 2.219417 ms (FindLiveObjects: 0.317483 ms CreateObjectMapping: 0.155360 ms MarkObjects: 1.655568 ms  DeleteObjects: 0.089879 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 96.738341 seconds.
+  path: Assets/VFX/VFX_DragonBreath.vfx
+  artifactKey: Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/VFX_DragonBreath.vfx using Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fe7252880822f33d172010178968c0') in 0.016615 seconds
+  Import took 0.029093 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048444 seconds.
+  path: Assets/VFX/VFX_DragonBreath.vfx
+  artifactKey: Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/VFX_DragonBreath.vfx using Guid(de6d7d65486bc164cb1e3857a34b6eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fe7252880822f33d172010178968c0') in 0.028086 seconds
+  Import took 0.039898 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
