@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1727,6 +1727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Flat_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1946416867099470, guid: af888a9bf203cb2469d8da68d9780b9f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4411077248703420, guid: af888a9bf203cb2469d8da68d9780b9f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2195,6 +2199,10 @@ PrefabInstance:
     - target: {fileID: 1946416867099470, guid: af888a9bf203cb2469d8da68d9780b9f, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Flat_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946416867099470, guid: af888a9bf203cb2469d8da68d9780b9f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4411077248703420, guid: af888a9bf203cb2469d8da68d9780b9f, type: 3}
       propertyPath: m_RootOrder
@@ -3620,6 +3628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Hill_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1371417484069930, guid: a71ca96be1fea454cbec695bb2ee1a34, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4576255045600990, guid: a71ca96be1fea454cbec695bb2ee1a34, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4142,6 +4154,10 @@ PrefabInstance:
     - target: {fileID: 1438846569682568, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Hill_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1438846569682568, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4079813579154422, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
       propertyPath: m_RootOrder
@@ -4796,6 +4812,10 @@ PrefabInstance:
     - target: {fileID: 1601898882004978, guid: 20988007df24b1b4c88900cb4d73e405, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Hill_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601898882004978, guid: 20988007df24b1b4c88900cb4d73e405, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4458165570905314, guid: 20988007df24b1b4c88900cb4d73e405, type: 3}
       propertyPath: m_RootOrder
@@ -6271,6 +6291,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1936791626}
     m_Modifications:
+    - target: {fileID: 1000042062325529448, guid: 1d5b72a4a31ed7f4f85657115ff4a669, type: 3}
+      propertyPath: sightRange
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1000042062325529450, guid: 1d5b72a4a31ed7f4f85657115ff4a669, type: 3}
       propertyPath: m_Name
       value: Archer
@@ -7729,6 +7753,10 @@ PrefabInstance:
     - target: {fileID: 1593622924028346, guid: 6af528d1fecfd2345b4383c3492da1d5, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Flat_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593622924028346, guid: 6af528d1fecfd2345b4383c3492da1d5, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4505409757605374, guid: 6af528d1fecfd2345b4383c3492da1d5, type: 3}
       propertyPath: m_RootOrder
@@ -9705,7 +9733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457942082043478, guid: c387919395b413b4d9b6f57655c412ac, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4014927443595238, guid: c387919395b413b4d9b6f57655c412ac, type: 3}
       propertyPath: m_RootOrder
@@ -12170,6 +12198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Flat_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1946416867099470, guid: af888a9bf203cb2469d8da68d9780b9f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4411077248703420, guid: af888a9bf203cb2469d8da68d9780b9f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -14605,7 +14637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1936791626
 Transform:
   m_ObjectHideFlags: 0
@@ -16730,6 +16762,10 @@ PrefabInstance:
     - target: {fileID: 1438846569682568, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Hill_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1438846569682568, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4079813579154422, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
       propertyPath: m_RootOrder
