@@ -177,3 +177,24 @@ Received Import Request.
 Start importing Assets/Dragon+animations/DragonFlying.anim using Guid(edcc100ea94e0614cb82d91f6073082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5778146edde3396b929083dc22cb84') in 0.255258 seconds
   Import took 0.260568 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002253 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.8 MB.
+System memory in use after: 238.0 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3912.
+Total: 2.219417 ms (FindLiveObjects: 0.317483 ms CreateObjectMapping: 0.155360 ms MarkObjects: 1.655568 ms  DeleteObjects: 0.089879 ms)
+
