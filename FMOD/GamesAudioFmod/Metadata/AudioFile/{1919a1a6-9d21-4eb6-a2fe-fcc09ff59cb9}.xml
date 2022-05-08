@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1919a1a6-9d21-4eb6-a2fe-fcc09ff59cb9}">
 		<property name="assetPath">
-			<value>GiraDialogue/Swans-WhatAreYouDoingToHim.wav</value>
+			<value>NPC Phrases/GiraDialogue/Swans-WhatAreYouDoingToHim.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
