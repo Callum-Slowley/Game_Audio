@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6d4132e3-82df-428b-9c02-1ebe883ddf74}">
 		<property name="assetPath">
-			<value>GiraDialogue/Swans-LookAtThatLittleBoyOverThere.wav</value>
+			<value>NPC Phrases/GiraDialogue/Swans-LookAtThatLittleBoyOverThere.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

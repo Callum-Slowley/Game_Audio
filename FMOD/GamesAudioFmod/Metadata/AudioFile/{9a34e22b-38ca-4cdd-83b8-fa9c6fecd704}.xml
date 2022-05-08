@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{9a34e22b-38ca-4cdd-83b8-fa9c6fecd704}">
 		<property name="assetPath">
-			<value>LittleBoy/LittleBoy-WatchDie.wav</value>
+			<value>NPC Phrases/LittleBoy/LittleBoy-WatchDie.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

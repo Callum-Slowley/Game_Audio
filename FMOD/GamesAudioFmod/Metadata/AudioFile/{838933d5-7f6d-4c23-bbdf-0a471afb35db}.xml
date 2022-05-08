@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{838933d5-7f6d-4c23-bbdf-0a471afb35db}">
 		<property name="assetPath">
-			<value>TurnipLady/Turnip-UWeeBastard.wav</value>
+			<value>NPC Phrases/TurnipLady/Turnip-UWeeBastard.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

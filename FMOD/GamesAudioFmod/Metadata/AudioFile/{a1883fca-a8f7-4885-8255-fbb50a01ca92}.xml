@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a1883fca-a8f7-4885-8255-fbb50a01ca92}">
 		<property name="assetPath">
-			<value>Dr.Nic/DrNic4-IwillPayYou.wav</value>
+			<value>NPC Phrases/Dr.Nic/DrNic4-IwillPayYou.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
