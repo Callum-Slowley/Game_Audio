@@ -1,32 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9025985143473358926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/DragonSounds/DragonFire
-  m_EditorClassIdentifier: 
-  Path: event:/DragonSounds/DragonFire
-  Guid:
-    Data1: 30288491
-    Data2: 1309836977
-    Data3: -1699700312
-    Data4: 755498899
-  Banks:
-  - {fileID: 1283715061741343033}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10000
 --- !u!114 &-5544591973537687762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,12 +49,12 @@ MonoBehaviour:
   - {fileID: 1283715061741343033}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters:
   - {fileID: 6308742528487269778}
   MinDistance: 1
   MaxDistance: 20
-  Length: 19032
+  Length: 0
 --- !u!114 &-5283317486629389708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,7 +149,7 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637871866850000000
+  lastModified: 637874332402869666
   FileSizes:
   - Name: Desktop
     Value: 1208
@@ -202,13 +175,13 @@ MonoBehaviour:
   - {fileID: -3980404097285327188}
   - {fileID: -5292196305983338351}
   - {fileID: -5544591973537687762}
-  - {fileID: -9025985143473358926}
+  - {fileID: 2138847490888834248}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637871866850000000
+  cacheTime: 637874332402869666
   cacheVersion: 10
 --- !u!114 &1283715061741343033
 MonoBehaviour:
@@ -225,11 +198,38 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637871866850000000
+  lastModified: 637874332402683198
   FileSizes:
   - Name: Desktop
-    Value: 2887424
+    Value: 2886368
   Exists: 1
+--- !u!114 &2138847490888834248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonFire
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonFire
+  Guid:
+    Data1: 30288491
+    Data2: 1309836977
+    Data3: -1699700312
+    Data4: 755498899
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
 --- !u!114 &6308742528487269778
 MonoBehaviour:
   m_ObjectHideFlags: 0

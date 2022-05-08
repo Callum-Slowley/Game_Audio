@@ -52,6 +52,7 @@ public class Movement : MonoBehaviour{
         else
         {
             rb.useGravity = true;
+            PlayFireSound();
         }
         DetermineTerrain();
         speed = Mathf.Round(rb.velocity.magnitude * 1000f) / 1000f;
