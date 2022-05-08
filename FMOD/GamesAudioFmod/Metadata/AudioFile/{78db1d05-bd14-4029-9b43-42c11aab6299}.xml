@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{78db1d05-bd14-4029-9b43-42c11aab6299}">
 		<property name="assetPath">
-			<value>NPC Phrases/CRYING/myhome_crying2.wav</value>
+			<value>NPC Phrases/NPC Phrases/CRYING/myhome_crying2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{66a9f49f-0ef6-41f7-a97d-274675c88814}">
 		<property name="assetPath">
-			<value>NPC Phrases/DRAGOOON/draaagooon.wav</value>
+			<value>NPC Phrases/NPC Phrases/DRAGOOON/draaagooon.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

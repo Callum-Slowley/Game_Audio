@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{41a6007b-3ae3-4393-9703-393e0c4e9e9a}">
 		<property name="assetPath">
-			<value>NPC Phrases/INSULTS/female/insult.wav</value>
+			<value>NPC Phrases/NPC Phrases/INSULTS/female/insult.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

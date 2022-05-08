@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EncodableAsset" id="{635fadf9-9995-4e06-8ce3-c5a62677e027}">
 		<property name="assetPath">
-			<value>NPC Phrases/INSULTS/male/</value>
+			<value>NPC Phrases/NPC Phrases/INSULTS/male/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>

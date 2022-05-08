@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{86c54a31-eef9-42c8-beec-26da3a3118db}">
 		<property name="assetPath">
-			<value>NPC Phrases/Weather/raining 2.wav</value>
+			<value>NPC Phrases/NPC Phrases/Weather/raining 2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

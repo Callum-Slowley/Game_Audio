@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EncodableAsset" id="{cc95eaea-4745-410d-b115-02a09f11ee16}">
 		<property name="assetPath">
-			<value>NPC Phrases/SCREAMING AND SHOUTING/female/normal pitch/</value>
+			<value>NPC Phrases/NPC Phrases/SCREAMING AND SHOUTING/female/normal pitch/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>

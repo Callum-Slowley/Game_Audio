@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8244ae38-a292-4f6d-9830-7e659881966d}">
 		<property name="assetPath">
-			<value>NPC Phrases/SCREAMING AND SHOUTING/female/really high pitched/screm7.wav</value>
+			<value>NPC Phrases/NPC Phrases/SCREAMING AND SHOUTING/female/really high pitched/screm7.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
