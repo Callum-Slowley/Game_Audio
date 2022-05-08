@@ -107,6 +107,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0db4750b-d162-46fc-900d-a47c0a8c3674}">
+		<property name="volume">
+			<value>-15.5</value>
+		</property>
 		<property name="name">
 			<value>Turnip Dialogue</value>
 		</property>
