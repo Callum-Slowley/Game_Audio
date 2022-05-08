@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EncodableAsset" id="{50b0b677-de76-43ba-ae4c-c5b5755440ab}">
+	<object class="EncodableAsset" id="{0c894602-c9b1-4ddb-be14-929347ebb8a9}">
 		<property name="assetPath">
-			<value>DRAGOOON/</value>
+			<value>DragonCharacterSounds/Scales/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>

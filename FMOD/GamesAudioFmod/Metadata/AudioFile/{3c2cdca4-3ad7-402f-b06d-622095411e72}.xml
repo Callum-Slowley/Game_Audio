@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3c2cdca4-3ad7-402f-b06d-622095411e72}">
 		<property name="assetPath">
-			<value>LowGrowl(3).wav</value>
+			<value>DragonCharacterSounds/DragonGrowl/LowGrowl(3).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
