@@ -66,7 +66,11 @@
 			<destination>{0db4750b-d162-46fc-900d-a47c0a8c3674}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{8ac6a4aa-be47-4fc0-a187-f43ebe1944f6}" />
+	<object class="Timeline" id="{8ac6a4aa-be47-4fc0-a187-f43ebe1944f6}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
 	<object class="ParameterProxy" id="{8d2106dd-3092-43aa-8899-6c8f0233522d}">
 		<relationship name="modules">
 			<destination>{ee1c28da-525e-4917-882d-c7f8b1e9d901}</destination>
@@ -104,7 +108,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0db4750b-d162-46fc-900d-a47c0a8c3674}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Turnip Dialogue</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{a5162edd-50a6-4bab-958e-ece76be52d44}</destination>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{8b1ab461-e945-40ce-9103-de7a8c3209d6}">
+		<property name="name">
+			<value>CloseToVillage</value>
+		</property>
+		<relationship name="folder">
+			<destination>{115624b8-1187-4d81-8f92-cf398a1a72dc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c3afc8b4-0665-40c4-b1fc-b40856058b81}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c3afc8b4-0665-40c4-b1fc-b40856058b81}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Close</value>
+			<value>Far</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
