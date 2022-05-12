@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d99e3cfe-c951-401a-926b-fc8bb976eb91}">
+		<property name="assetPath">
+			<value>Weapons/Hammer/Throw Tail 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>
+		</relationship>
+	</object>
+</objects>
