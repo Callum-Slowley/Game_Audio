@@ -61,7 +61,10 @@ public class Movement : MonoBehaviour{
             rb.useGravity = true;
             dragonAnimator.SetBool("isFlying", isFlying);
         }
+
+
         DetermineTerrain();
+        height = this.transform.position.y/200;
         speed = Mathf.Round(rb.velocity.magnitude * 1000f) / 1000f;
 
         cooldownTimer += 1*Time.deltaTime;
