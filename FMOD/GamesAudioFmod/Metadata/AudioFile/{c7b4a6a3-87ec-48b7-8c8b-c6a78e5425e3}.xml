@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{c7b4a6a3-87ec-48b7-8c8b-c6a78e5425e3}">
 		<property name="assetPath">
-			<value>HornAlert/Horn6.wav</value>
+			<value>Horn6.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

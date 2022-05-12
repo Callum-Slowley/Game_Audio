@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{09622549-e222-440d-ba08-da9ca517f668}">
 		<property name="assetPath">
-			<value>DragonCharacterSounds/DragonDialogue/Uh(Confusion_Short).wav</value>
+			<value>Uh(Confusion_Short).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

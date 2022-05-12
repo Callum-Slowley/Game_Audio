@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{2d97b41d-ce88-41d0-90a7-0edb1db5693a}">
 		<property name="assetPath">
-			<value>NPC Phrases/NPC Phrases/FIGHTING AND CHARGING/gonnakillyou.wav</value>
+			<value>NPC Phrases/FIGHTING AND CHARGING/gonnakillyou.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

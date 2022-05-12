@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d4bf863c-fcd0-4678-b782-a7ca079407d6}">
 		<property name="assetPath">
-			<value>DragonCharacterSounds/DragonDialogue/DragonDialogueEdit PlunderYourGold.wav</value>
+			<value>DragonDialogueEdit PlunderYourGold.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
