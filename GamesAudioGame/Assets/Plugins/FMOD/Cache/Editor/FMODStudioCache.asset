@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8283756976333026649
+--- !u!114 &-6692747630584107900
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,23 +10,151 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Dragon Sounds/DragonGrowl
+  m_Name: event:/DragonSounds/DragonFootsteps
   m_EditorClassIdentifier: 
-  Path: event:/Dragon Sounds/DragonGrowl
+  Path: event:/DragonSounds/DragonFootsteps
   Guid:
-    Data1: -1266617767
-    Data2: 1136896372
-    Data3: -645328720
-    Data4: 353953637
+    Data1: -1271694254
+    Data2: 1130216306
+    Data3: -953008720
+    Data4: -1198921312
   Banks:
   - {fileID: 1283715061741343033}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 4809892179928877502}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2879047209262236601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonDialogue
+  Guid:
+    Data1: -970439664
+    Data2: 1081987605
+    Data3: 777281936
+    Data4: -442767917
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 983056805353547803}
+  - {fileID: -2746737786938253440}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2746737786938253440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonDialogue/Height
+  m_EditorClassIdentifier: 
+  Name: Height
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2361461562
+    data2: 1487938493
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2038535839336329424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TurnipLady/TurnipOnFire
+  m_EditorClassIdentifier: 
+  Name: TurnipOnFire
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2789158906
+    data2: 1545193210
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1537275495021810471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Archer/DragonHealth
+  m_EditorClassIdentifier: 
+  Name: DragonHealth
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3439332506
+    data2: 512024351
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1328331830457475030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/NPC_Dialogue/CloseToVillage
+  m_EditorClassIdentifier: 
+  Name: CloseToVillage
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3347033762
+    data2: 2101149057
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Close
+  - Far
+  Exists: 1
 --- !u!114 &-1192232876294462901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,38 +170,11 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637847517483636750
+  lastModified: 637879550033951630
   FileSizes:
   - Name: Desktop
-    Value: 826
+    Value: 1520
   Exists: 1
---- !u!114 &-639128590723450279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Dragon Sounds/WingFlap
-  m_EditorClassIdentifier: 
-  Path: event:/Dragon Sounds/WingFlap
-  Guid:
-    Data1: -939651253
-    Data2: 1210345347
-    Data3: -542959698
-    Data4: 740755319
-  Banks:
-  - {fileID: 1283715061741343033}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,15 +191,127 @@ MonoBehaviour:
   - {fileID: -1192232876294462901}
   - {fileID: 1283715061741343033}
   EditorEvents:
-  - {fileID: -639128590723450279}
-  - {fileID: -8283756976333026649}
+  - {fileID: -2879047209262236601}
+  - {fileID: 5307250689741157265}
+  - {fileID: 4479227221732127393}
+  - {fileID: -6692747630584107900}
+  - {fileID: 1706163974364601743}
+  - {fileID: 3958003648178497026}
+  - {fileID: 606172271923745560}
+  - {fileID: 821878964205379484}
+  - {fileID: 6978203160046329996}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637847517483636750
+  cacheTime: 637879550033951630
   cacheVersion: 10
+--- !u!114 &606172271923745560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_Dialogue/NPC_Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_Dialogue/NPC_Dialogue
+  Guid:
+    Data1: 1021174981
+    Data2: 1317710277
+    Data3: 148516226
+    Data4: -1433688389
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -1328331830457475030}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &821878964205379484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_Dialogue/TurnipLady
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_Dialogue/TurnipLady
+  Guid:
+    Data1: 1610659320
+    Data2: 1194599623
+    Data3: -1888201573
+    Data4: -673263935
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2038535839336329424}
+  - {fileID: 4339125282411983271}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &983056805353547803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonDialogue/DragonHit
+  m_EditorClassIdentifier: 
+  Name: DragonHit
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 513547303
+    data2: 1223861745
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1086085907934736237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LittleBoyDialogue/LittleBoy
+  m_EditorClassIdentifier: 
+  Name: LittleBoy
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3730631193
+    data2: 2521909097
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1283715061741343033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,8 +327,248 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637847517483606829
+  lastModified: 637879550033931685
   FileSizes:
   - Name: Desktop
-    Value: 2376
+    Value: 5186112
+  Exists: 1
+--- !u!114 &1706163974364601743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_Dialogue/LittleBoyDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_Dialogue/LittleBoyDialogue
+  Guid:
+    Data1: 1290869340
+    Data2: 1129910642
+    Data3: 36230561
+    Data4: -1663154276
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7999437991688767942}
+  - {fileID: 1086085907934736237}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3958003648178497026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonFire
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonFire
+  Guid:
+    Data1: 30288491
+    Data2: 1309836977
+    Data3: -1699700312
+    Data4: 755498899
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &4339125282411983271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TurnipLady/LittleBoy
+  m_EditorClassIdentifier: 
+  Name: LittleBoy
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3730631193
+    data2: 2521909097
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4479227221732127393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonWings
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonWings
+  Guid:
+    Data1: 524891703
+    Data2: 1203364251
+    Data3: 887916441
+    Data4: -106363208
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 750
+--- !u!114 &4809892179928877502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonFootsteps/DragonFootSteps
+  m_EditorClassIdentifier: 
+  Name: DragonFootSteps
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 586733694
+    data2: 151120122
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Grass
+  - Stone
+  - Sand
+  Exists: 1
+--- !u!114 &5307250689741157265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_Dialogue/Archer
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_Dialogue/Archer
+  Guid:
+    Data1: 1316458009
+    Data2: 1266261167
+    Data3: -1157603663
+    Data4: 14615159
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8435266245128576144}
+  - {fileID: -1537275495021810471}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6978203160046329996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonGrowls
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonGrowls
+  Guid:
+    Data1: 283048444
+    Data2: 1241148956
+    Data3: -326493047
+    Data4: -222698375
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3520
+--- !u!114 &7999437991688767942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LittleBoyDialogue/WinLose
+  m_EditorClassIdentifier: 
+  Name: WinLose
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1713368547
+    data2: 3979459668
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8435266245128576144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Archer/CloseToVillage
+  m_EditorClassIdentifier: 
+  Name: CloseToVillage
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3347033762
+    data2: 2101149057
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Close
+  - Far
   Exists: 1
