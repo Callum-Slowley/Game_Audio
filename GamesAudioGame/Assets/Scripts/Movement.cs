@@ -68,7 +68,7 @@ public class Movement : MonoBehaviour{
         speed = Mathf.Round(rb.velocity.magnitude * 1000f) / 1000f;
 
         cooldownTimer += 1*Time.deltaTime;
-        if(cooldownTimer>idleCoolDownMax){
+        if(cooldownTimer>=idleCoolDownMax){
             PlayLine(height);
             cooldownTimer=0;
         }
