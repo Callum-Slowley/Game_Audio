@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{dc4f5199-a366-4b19-9fff-41a4bf2adca1}">
+		<property name="name">
+			<value>Flight range</value>
+		</property>
+		<relationship name="folder">
+			<destination>{115624b8-1187-4d81-8f92-cf398a1a72dc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7b80a04b-6de8-4a5f-b4a7-735c8c9a7895}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7b80a04b-6de8-4a5f-b4a7-735c8c9a7895}">
+		<property name="initialValue">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>

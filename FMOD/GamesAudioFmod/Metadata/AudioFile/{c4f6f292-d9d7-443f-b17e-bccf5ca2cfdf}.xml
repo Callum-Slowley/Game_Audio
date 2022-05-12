@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{c4f6f292-d9d7-443f-b17e-bccf5ca2cfdf}">
 		<property name="assetPath">
-			<value>DragonCharacterSounds/DragonFootsteps/DragonFootStepGrass4.wav</value>
+			<value>DragonFootStepGrass4.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EncodableAsset" id="{50b0b677-de76-43ba-ae4c-c5b5755440ab}">
 		<property name="assetPath">
-			<value>DRAGOOON/</value>
+			<value>NPC Phrases/DRAGOOON/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>
