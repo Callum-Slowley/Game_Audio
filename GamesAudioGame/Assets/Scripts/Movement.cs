@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour{
     public float speed;
     public float maxHeight,minHeight;
     public float height;
-    public float idleCoolDownMax= 5;
+    public float idleCoolDownMax= 10;
     public float cooldownTimer=0; 
 
     // Start is called before the first frame update
@@ -64,7 +64,8 @@ public class Movement : MonoBehaviour{
 
         cooldownTimer += 1*Time.deltaTime;
         if(cooldownTimer>idleCoolDownMax){
-            PlayLine();
+            PlayLine(height);
+            cooldownTimer=0;
         }
         
     }

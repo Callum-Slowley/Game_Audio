@@ -1,0 +1,311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8129591102473009314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonFootsteps/DragonFootSteps
+  m_EditorClassIdentifier: 
+  Name: DragonFootSteps
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 586733694
+    data2: 151120122
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Grass
+  - Stone
+  - Sand
+  Exists: 1
+--- !u!114 &-5655189029586359925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637879522520000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1208
+  Exists: 1
+--- !u!114 &-5244046337059699148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonFootsteps
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonFootsteps
+  Guid:
+    Data1: -1271694254
+    Data2: 1130216306
+    Data3: -953008720
+    Data4: -1198921312
+  Banks:
+  - {fileID: 3008993761065685740}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8129591102473009314}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -5655189029586359925}
+  - {fileID: 3008993761065685740}
+  EditorEvents:
+  - {fileID: 1705845022903655874}
+  - {fileID: 997819409153938860}
+  - {fileID: -5244046337059699148}
+  - {fileID: 8222420886679770835}
+  - {fileID: 5526832555721058527}
+  - {fileID: 3419373992708439957}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 3008993761065685740}
+  StringsBanks:
+  - {fileID: -5655189029586359925}
+  cacheTime: 637879522520000000
+  cacheVersion: 10
+--- !u!114 &441704582684631180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LittleBoyDialogue/LittleBoy
+  m_EditorClassIdentifier: 
+  Name: LittleBoy
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3730631193
+    data2: 2521909097
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &997819409153938860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonWings
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonWings
+  Guid:
+    Data1: 524891703
+    Data2: 1203364251
+    Data3: 887916441
+    Data4: -106363208
+  Banks:
+  - {fileID: 3008993761065685740}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 700
+--- !u!114 &1705845022903655874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonDialogue
+  Guid:
+    Data1: -970439664
+    Data2: 1081987605
+    Data3: 777281936
+    Data4: -442767917
+  Banks:
+  - {fileID: 3008993761065685740}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3914731814052778835}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3008993761065685740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637879522520000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2887424
+  Exists: 1
+--- !u!114 &3419373992708439957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonGrowls
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonGrowls
+  Guid:
+    Data1: 283048444
+    Data2: 1241148956
+    Data3: -326493047
+    Data4: -222698375
+  Banks:
+  - {fileID: 3008993761065685740}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &3914731814052778835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonDialogue/Height
+  m_EditorClassIdentifier: 
+  Name: Height
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2361461562
+    data2: 1487938493
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5526832555721058527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonFire
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonFire
+  Guid:
+    Data1: 30288491
+    Data2: 1309836977
+    Data3: -1699700312
+    Data4: 755498899
+  Banks:
+  - {fileID: 3008993761065685740}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &8222420886679770835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_Dialogue/LittleBoyDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_Dialogue/LittleBoyDialogue
+  Guid:
+    Data1: 1290869340
+    Data2: 1129910642
+    Data3: 36230561
+    Data4: -1663154276
+  Banks:
+  - {fileID: 3008993761065685740}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 441704582684631180}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19032
