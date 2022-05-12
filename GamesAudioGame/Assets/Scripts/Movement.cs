@@ -20,6 +20,7 @@ public class Movement : MonoBehaviour{
     public float shiftSpeed = 150f;
     public float controlSpeed = 50f;
     public GameObject Camera;
+    public Animator dragonAnimator;
 
     public float horizSen = 2f;
     public float vertSen = 2f;
@@ -53,11 +54,12 @@ public class Movement : MonoBehaviour{
         {
             flying();
             rb.useGravity = false;
+            dragonAnimator.SetBool("isFlying", isFlying);
         }
         else
         {
             rb.useGravity = true;
-            PlayFireSound();
+            dragonAnimator.SetBool("isFlying", isFlying);
         }
         DetermineTerrain();
         speed = Mathf.Round(rb.velocity.magnitude * 1000f) / 1000f;
