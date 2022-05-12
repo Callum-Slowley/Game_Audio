@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{522ae105-c69f-41b8-82cd-afd232136e1d}">
 		<property name="assetPath">
-			<value>Boris(Name).wav</value>
+			<value>DragonCharacterSounds/DragonDialogue/Boris(Name).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{e54f55be-9dd3-4a4e-bfb2-da9a4e452e40}">
 		<property name="assetPath">
-			<value>Aganemnon(Confused).wav</value>
+			<value>DragonCharacterSounds/DragonDialogue/Aganemnon(Confused).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

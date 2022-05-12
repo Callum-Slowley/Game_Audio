@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{10477a1a-2612-4e7a-ac32-02cabcc8adcd}">
+		<property name="assetPath">
+			<value>NPC Phrases/NPC Phrases/SCREAMING AND SHOUTING/female/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>
+		</relationship>
+	</object>
+</objects>

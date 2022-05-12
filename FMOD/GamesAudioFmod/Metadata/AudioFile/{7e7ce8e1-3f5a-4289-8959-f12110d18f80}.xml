@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{7e7ce8e1-3f5a-4289-8959-f12110d18f80}">
 		<property name="assetPath">
-			<value>IAm(Long_Confused).wav</value>
+			<value>DragonCharacterSounds/DragonDialogue/IAm(Long_Confused).wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

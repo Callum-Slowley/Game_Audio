@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{9940553d-2c70-459e-a4ba-8aab14fff799}">
 		<property name="assetPath">
-			<value>WingsLeather2(Gentle).wav</value>
+			<value>DragonCharacterSounds/DragonWingsSound/WingsLeather2(Gentle).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
