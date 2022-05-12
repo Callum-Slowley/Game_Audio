@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c808df71-97b6-4cab-b99e-65ed48eff0c4}">
+		<property name="name">
+			<value>DragonHit</value>
+		</property>
+		<relationship name="folder">
+			<destination>{115624b8-1187-4d81-8f92-cf398a1a72dc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{825f6d46-8260-45d5-80f7-81465c7f45d1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{825f6d46-8260-45d5-80f7-81465c7f45d1}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
