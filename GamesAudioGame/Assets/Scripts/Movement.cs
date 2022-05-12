@@ -34,6 +34,8 @@ public class Movement : MonoBehaviour{
     public float speed;
     public float maxHeight,minHeight;
     public float height;
+    public float idleCoolDownMax= 5;
+    public float cooldownTimer=0; 
 
     // Start is called before the first frame update
     void Start()
@@ -58,6 +60,11 @@ public class Movement : MonoBehaviour{
         }
         DetermineTerrain();
         speed = Mathf.Round(rb.velocity.magnitude * 1000f) / 1000f;
+
+        cooldownTimer += 1*Time.deltaTime;
+        if(cooldownTimer>idleCoolDownMax){
+            PlayLine();
+        }
         
     }
 
