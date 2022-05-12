@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3a5b3c2a-9240-4348-bbc7-e4780535d666}">
 		<property name="assetPath">
-			<value>NPC Phrases/goofy_ohno.wav</value>
+			<value>NPC Phrases/CRYING/goofy_ohno.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

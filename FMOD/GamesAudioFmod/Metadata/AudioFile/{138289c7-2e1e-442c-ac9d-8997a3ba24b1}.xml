@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{d45b9583-2515-47f8-b862-77d7d832dd66}">
+	<object class="AudioFile" id="{138289c7-2e1e-442c-ac9d-8997a3ba24b1}">
 		<property name="assetPath">
-			<value>NPC Phrases/DRAGOOON/draaagooon _higher.wav</value>
+			<value>Weather Sounds/goblin3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>5.9443083900226759</value>
+			<value>0.74843537414965988</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>
