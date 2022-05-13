@@ -5,7 +5,7 @@
 			<value>Weapon State</value>
 		</property>
 		<relationship name="folder">
-			<destination>{115624b8-1187-4d81-8f92-cf398a1a72dc}</destination>
+			<destination>{acccb780-115e-4d18-83ad-8ee9779e7dbf}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{07ab896e-cc69-4afe-affb-955b53253347}</destination>

@@ -2,24 +2,31 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{64c8a35d-905a-432f-8a03-3180228ab95a}">
 		<property name="name">
-			<value>Time</value>
+			<value>Sword State</value>
 		</property>
 		<relationship name="folder">
-			<destination>{115624b8-1187-4d81-8f92-cf398a1a72dc}</destination>
+			<destination>{acccb780-115e-4d18-83ad-8ee9779e7dbf}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{3d0caab4-e4cc-4757-8d93-98a7f089809f}</destination>
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{3d0caab4-e4cc-4757-8d93-98a7f089809f}">
-		<property name="maximum">
+		<property name="parameterType">
 			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Nothing</value>
+			<value>Miss</value>
+			<value>Pierce</value>
+			<value>Blunt</value>
+			<value>Slash</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
-		</property>
-		<property name="velocity">
-			<value>0.125</value>
 		</property>
 	</object>
 </objects>
