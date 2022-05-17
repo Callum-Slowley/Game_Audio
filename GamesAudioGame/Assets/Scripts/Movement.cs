@@ -36,7 +36,8 @@ public class Movement : MonoBehaviour{
     public float maxHeight,minHeight;
     public float height;
     public float idleCoolDownMax= 10;
-    public float cooldownTimer=0; 
+    public float cooldownTimer=0;
+    public float WingState = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -164,18 +165,21 @@ public class Movement : MonoBehaviour{
         DragonFootsteps.start();
         DragonFootsteps.release();
     }
-    public void PlayFlyingSound(){
+    public void PlayFlyingSound(float WingState)
+    {
         DragonFootsteps = FMODUnity.RuntimeManager.CreateInstance("event:/DragonSounds/DragonWings");
+        DragonFootsteps.setParameterByName("Wings", WingState);
         DragonFootsteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.gameObject));
         DragonFootsteps.start();
         DragonFootsteps.release();
     }
-    
-        public void SelectAndPlayLine()
+
+    public void SelectAndPlayLine()
     {
         PlayLine(height);
     }
-        private void PlayLine(float height)
+
+    private void PlayLine(float height)
     {
         Debug.Log("Height " + height);
         idle_lines = FMODUnity.RuntimeManager.CreateInstance("event:/DragonSounds/DragonDialogue");

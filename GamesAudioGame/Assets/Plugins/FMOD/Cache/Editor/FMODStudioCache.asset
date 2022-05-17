@@ -1,31 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9096866845770892133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Archer/CloseToVillage
-  m_EditorClassIdentifier: 
-  Name: CloseToVillage
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3347033762
-    data2: 2101149057
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Close
-  - Far
-  Exists: 1
 --- !u!114 &-7451904609295330928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,30 +133,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-1641918775249963258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Archer/DragonHealth
-  m_EditorClassIdentifier: 
-  Name: DragonHealth
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3439332506
-    data2: 512024351
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-1192232876294462901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,10 +148,37 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637879602158692136
+  lastModified: 637883842619098448
   FileSizes:
   - Name: Desktop
-    Value: 1520
+    Value: 1742
+  Exists: 1
+--- !u!114 &-1025916394819585401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bow/Weapon State
+  m_EditorClassIdentifier: 
+  Name: Weapon State
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2008924030
+    data2: 271875002
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Flight
+  - Hit
+  - Miss
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -225,15 +202,15 @@ MonoBehaviour:
   - {fileID: 1706163974364601743}
   - {fileID: 3958003648178497026}
   - {fileID: 6978203160046329996}
-  - {fileID: 5826294854424851281}
   - {fileID: -6349115344862739577}
   - {fileID: 289734239688978564}
+  - {fileID: 3883761711944467663}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637879602158692136
+  cacheTime: 637883842619098448
   cacheVersion: 10
 --- !u!114 &289734239688978564
 MonoBehaviour:
@@ -329,10 +306,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637879602158662246
+  lastModified: 637883842619068527
   FileSizes:
   - Name: Desktop
-    Value: 5187776
+    Value: 5345664
   Exists: 1
 --- !u!114 &1706163974364601743
 MonoBehaviour:
@@ -363,6 +340,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3883761711944467663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcherDialogue/Bow
+  m_EditorClassIdentifier: 
+  Path: event:/ArcherDialogue/Bow
+  Guid:
+    Data1: -1282311446
+    Data2: 1301492075
+    Data3: -831236426
+    Data4: 2380379
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1025916394819585401}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15500
 --- !u!114 &3958003648178497026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,11 +417,12 @@ MonoBehaviour:
   - {fileID: 1283715061741343033}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6612013882862655638}
   MinDistance: 1
   MaxDistance: 20
-  Length: 750
+  Length: 780
 --- !u!114 &4809892179928877502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,35 +450,6 @@ MonoBehaviour:
   - Stone
   - Sand
   Exists: 1
---- !u!114 &5826294854424851281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/NPC_Dialogue/Archer
-  m_EditorClassIdentifier: 
-  Path: event:/NPC_Dialogue/Archer
-  Guid:
-    Data1: 1316458009
-    Data2: 1266261167
-    Data3: -1157603663
-    Data4: 14615159
-  Banks:
-  - {fileID: 1283715061741343033}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -9096866845770892133}
-  - {fileID: -1641918775249963258}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &6220236305537318572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,6 +470,30 @@ MonoBehaviour:
   ID:
     data1: 1713368547
     data2: 3979459668
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6612013882862655638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonWings/Wings
+  m_EditorClassIdentifier: 
+  Name: Wings
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2986101011
+    data2: 577476693
   Type: 1
   IsGlobal: 0
   Labels: []
