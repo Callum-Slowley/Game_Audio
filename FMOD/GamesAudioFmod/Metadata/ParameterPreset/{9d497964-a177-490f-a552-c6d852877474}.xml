@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{9d497964-a177-490f-a552-c6d852877474}">
+		<property name="name">
+			<value>DragonSpeed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{115624b8-1187-4d81-8f92-cf398a1a72dc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e3a2b0ea-b484-47e4-913a-3c311135da9b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e3a2b0ea-b484-47e4-913a-3c311135da9b}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{69bbeb0e-8384-4a5c-b5f7-31eaf4f03e58}">
+		<property name="name">
+			<value>BowState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{115624b8-1187-4d81-8f92-cf398a1a72dc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{594b63ee-23ec-466c-890c-86ccc6700724}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{594b63ee-23ec-466c-890c-86ccc6700724}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Bow Draw</value>
+			<value>Bow Release</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
