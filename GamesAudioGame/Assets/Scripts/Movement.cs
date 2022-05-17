@@ -73,7 +73,6 @@ public class Movement : MonoBehaviour{
             PlayLine(height);
             cooldownTimer=0;
         }
-        
     }
 
     void flying()
@@ -169,6 +168,7 @@ public class Movement : MonoBehaviour{
     {
         DragonFootsteps = FMODUnity.RuntimeManager.CreateInstance("event:/DragonSounds/DragonWings");
         DragonFootsteps.setParameterByName("Wings", WingState);
+        DragonFootsteps.setParameterByName("DragonSpeed", height);
         DragonFootsteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.gameObject));
         DragonFootsteps.start();
         DragonFootsteps.release();
@@ -181,7 +181,6 @@ public class Movement : MonoBehaviour{
 
     private void PlayLine(float height)
     {
-        Debug.Log("Height " + height);
         idle_lines = FMODUnity.RuntimeManager.CreateInstance("event:/DragonSounds/DragonDialogue");
         idle_lines.setParameterByName("Height", height);
         idle_lines.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.gameObject));

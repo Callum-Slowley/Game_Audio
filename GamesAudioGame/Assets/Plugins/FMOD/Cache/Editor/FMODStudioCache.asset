@@ -148,10 +148,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637884094148591419
+  lastModified: 637884173315421789
   FileSizes:
   - Name: Desktop
-    Value: 1780
+    Value: 1816
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -183,8 +183,32 @@ MonoBehaviour:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637884094148591419
+  cacheTime: 637884173315421789
   cacheVersion: 10
+--- !u!114 &5693926297833138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonWings/DragonSpeed
+  m_EditorClassIdentifier: 
+  Name: DragonSpeed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1157642013
+    data2: 4140142849
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &289734239688978564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,8 +235,8 @@ MonoBehaviour:
   Parameters:
   - {fileID: -7451904609295330928}
   - {fileID: 6986044293440610327}
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 6.4
+  MaxDistance: 150
   Length: 0
 --- !u!114 &775131603440181719
 MonoBehaviour:
@@ -279,10 +303,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637884094148541538
+  lastModified: 637884173315291967
   FileSizes:
   - Name: Desktop
-    Value: 5147392
+    Value: 5149216
   Exists: 1
 --- !u!114 &1706163974364601743
 MonoBehaviour:
@@ -338,8 +362,8 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 7799078402051343840}
-  MinDistance: 10
-  MaxDistance: 350
+  MinDistance: 1.4
+  MaxDistance: 95
   Length: 4700
 --- !u!114 &3958003648178497026
 MonoBehaviour:
@@ -393,6 +417,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 6612013882862655638}
+  - {fileID: 5693926297833138}
   MinDistance: 1
   MaxDistance: 20
   Length: 780

@@ -7,7 +7,6 @@ public class CabbageLadyDialogue : MonoBehaviour
     private FMOD.Studio.EventInstance CabbageLines;
     public float CoolDownMax = 10;
     public float cooldownTimer = 0;
-    public GameObject Camera;
     public GameObject Turnips;
 
     // Start is called before the first frame update
@@ -35,7 +34,7 @@ public class CabbageLadyDialogue : MonoBehaviour
     {
         CabbageLines = FMODUnity.RuntimeManager.CreateInstance("event:/NPC_Dialogue/TurnipLady");
         CabbageLines.setParameterByName("LittleBoy", 0);
-        CabbageLines.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.gameObject));
+        CabbageLines.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Turnips.gameObject));
         CabbageLines.start();
         CabbageLines.release();
     }
