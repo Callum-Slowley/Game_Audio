@@ -23,7 +23,6 @@ public class EnermyArcherAi : MonoBehaviour
     public bool playerInSightRange,playerInAttackRange;
 
     // Fmod Stuff
-    [FMODUnity.EventRef]
     FMOD.Studio.EventInstance ArcherFireSound;
     public GameObject FMODObject;
 

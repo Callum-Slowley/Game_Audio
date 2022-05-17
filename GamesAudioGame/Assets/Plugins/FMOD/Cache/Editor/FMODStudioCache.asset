@@ -148,37 +148,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637883842619098448
+  lastModified: 637884086289513364
   FileSizes:
   - Name: Desktop
     Value: 1742
-  Exists: 1
---- !u!114 &-1025916394819585401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Bow/Weapon State
-  m_EditorClassIdentifier: 
-  Name: Weapon State
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 2008924030
-    data2: 271875002
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Flight
-  - Hit
-  - Miss
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -210,7 +183,7 @@ MonoBehaviour:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637883842619098448
+  cacheTime: 637884086289513364
   cacheVersion: 10
 --- !u!114 &289734239688978564
 MonoBehaviour:
@@ -306,7 +279,7 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637883842619068527
+  lastModified: 637884086289473475
   FileSizes:
   - Name: Desktop
     Value: 5345664
@@ -340,6 +313,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3217811878421568683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bow/Weapon State
+  m_EditorClassIdentifier: 
+  Name: Weapon State
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2008924030
+    data2: 271875002
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Flight
+  - Hit
+  - Miss
+  Exists: 1
 --- !u!114 &3883761711944467663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,7 +364,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -1025916394819585401}
+  - {fileID: 3217811878421568683}
   MinDistance: 1
   MaxDistance: 20
   Length: 15500
