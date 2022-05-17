@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7fa58755-6d07-4c93-8071-63adc8be7632}">
+		<property name="name">
+			<value>Sword State</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6efe1b80-ce55-4401-8234-6495e9d0a5c7}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{07e71ef4-ada2-44a5-afea-332cf079a686}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{07e71ef4-ada2-44a5-afea-332cf079a686}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Nothing</value>
+			<value>Miss</value>
+			<value>Pierce</value>
+			<value>Blunt</value>
+			<value>Slash</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
