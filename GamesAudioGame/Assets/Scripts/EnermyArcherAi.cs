@@ -25,6 +25,7 @@ public class EnermyArcherAi : MonoBehaviour
     // Fmod Stuff
     FMOD.Studio.EventInstance ArcherFireSound;
     public GameObject FMODObject;
+    public float BowState = 0;
 
     private void Awake()
     {
@@ -103,10 +104,10 @@ public class EnermyArcherAi : MonoBehaviour
     }
 
     // I added this jank please forgive me (Signed Kris)
-    private void ShootsFired()
+    private void ShootsFired(int BowState)
     {
-        Debug.Log("FireCalled");
         ArcherFireSound = FMODUnity.RuntimeManager.CreateInstance("event:/ArcherDialogue/Bow");
+        ArcherFireSound.setParameterByName("BowState", BowState);
         // Needs Replaced with 3d emmitter on Model
         ArcherFireSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(FMODObject.gameObject));
         ArcherFireSound.start();
