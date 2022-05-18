@@ -10,9 +10,10 @@ public class DestructableObjects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isOnFire)
+        if (isOnFire)
         {
-            foreach(GameObject fire in fires){
+            foreach (GameObject fire in fires)
+            {
                 fire.SetActive(true);
             }
         }

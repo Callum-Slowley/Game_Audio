@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4c91a1ad-d692-47b9-8df3-5e8559eeb071}">
+		<property name="name">
+			<value>Weapon State</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6efe1b80-ce55-4401-8234-6495e9d0a5c7}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cc1d05b1-4c43-41ee-a484-b5ebde14b953}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cc1d05b1-4c43-41ee-a484-b5ebde14b953}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Flight</value>
+			<value>Hit</value>
+			<value>Miss</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

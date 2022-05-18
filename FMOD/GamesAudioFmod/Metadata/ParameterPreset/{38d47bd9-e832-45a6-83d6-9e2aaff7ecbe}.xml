@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{38d47bd9-e832-45a6-83d6-9e2aaff7ecbe}">
+		<property name="name">
+			<value>Pain</value>
+		</property>
+		<relationship name="folder">
+			<destination>{115624b8-1187-4d81-8f92-cf398a1a72dc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b0477ce0-674d-4812-9259-d14040235b3b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b0477ce0-674d-4812-9259-d14040235b3b}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

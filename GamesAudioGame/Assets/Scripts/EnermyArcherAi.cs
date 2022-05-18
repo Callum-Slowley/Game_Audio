@@ -22,6 +22,11 @@ public class EnermyArcherAi : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange,playerInAttackRange;
 
+    // Fmod Stuff
+    FMOD.Studio.EventInstance ArcherFireSound;
+    public GameObject FMODObject;
+    public float BowState = 0;
+
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -97,6 +102,19 @@ public class EnermyArcherAi : MonoBehaviour
         attacked = true;
         Invoke(nameof(ResetAttack), timeBetweenAttacks);
     }
+
+    // I added this jank please forgive me (Signed Kris)
+    private void ShootsFired(int BowState)
+    {
+        ArcherFireSound = FMODUnity.RuntimeManager.CreateInstance("event:/ArcherDialogue/Bow");
+        ArcherFireSound.setParameterByName("BowState", BowState);
+        // Needs Replaced with 3d emmitter on Model
+        ArcherFireSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(FMODObject.gameObject));
+        ArcherFireSound.start();
+        ArcherFireSound.release();
+
+    }
+
     //used to visualise stuff
     void OnDrawGizmosSelected()
     {
