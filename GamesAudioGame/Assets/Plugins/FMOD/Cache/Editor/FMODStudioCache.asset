@@ -80,6 +80,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4788038990630691117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DragonSounds/DragonHittingIntoStuff
+  m_EditorClassIdentifier: 
+  Path: event:/DragonSounds/DragonHittingIntoStuff
+  Guid:
+    Data1: -509977683
+    Data2: 1092727724
+    Data3: -1234255232
+    Data4: -801062461
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3174734233525790248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LittleBoy/LittleBoy
+  m_EditorClassIdentifier: 
+  Name: LittleBoy
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3730631193
+    data2: 2521909097
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2879047209262236601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,10 +199,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637884173315421789
+  lastModified: 637885125409760632
   FileSizes:
   - Name: Desktop
-    Value: 1816
+    Value: 1966
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -172,18 +223,19 @@ MonoBehaviour:
   - {fileID: -2879047209262236601}
   - {fileID: 4479227221732127393}
   - {fileID: -6692747630584107900}
-  - {fileID: 1706163974364601743}
   - {fileID: 3958003648178497026}
   - {fileID: 6978203160046329996}
   - {fileID: -6349115344862739577}
   - {fileID: 289734239688978564}
   - {fileID: 3883761711944467663}
+  - {fileID: -4788038990630691117}
+  - {fileID: 456250241572210731}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637884173315421789
+  cacheTime: 637885125409760632
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -238,6 +290,35 @@ MonoBehaviour:
   MinDistance: 6.4
   MaxDistance: 150
   Length: 0
+--- !u!114 &456250241572210731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_Dialogue/LittleBoy
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_Dialogue/LittleBoy
+  Guid:
+    Data1: 1290869340
+    Data2: 1129910642
+    Data3: 36230561
+    Data4: -1663154276
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3470641282661135134}
+  - {fileID: -3174734233525790248}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &775131603440181719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,30 +345,6 @@ MonoBehaviour:
   - Close
   - Far
   Exists: 1
---- !u!114 &1086085907934736237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/LittleBoyDialogue/LittleBoy
-  m_EditorClassIdentifier: 
-  Name: LittleBoy
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3730631193
-    data2: 2521909097
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &1283715061741343033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,12 +360,12 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637884173315291967
+  lastModified: 637885125409720741
   FileSizes:
   - Name: Desktop
-    Value: 5149216
+    Value: 5150272
   Exists: 1
---- !u!114 &1706163974364601743
+--- !u!114 &3470641282661135134
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -317,26 +374,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/NPC_Dialogue/LittleBoyDialogue
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LittleBoy/WinLose
   m_EditorClassIdentifier: 
-  Path: event:/NPC_Dialogue/LittleBoyDialogue
-  Guid:
-    Data1: 1290869340
-    Data2: 1129910642
-    Data3: 36230561
-    Data4: -1663154276
-  Banks:
-  - {fileID: 1283715061741343033}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 1086085907934736237}
-  - {fileID: 6220236305537318572}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  Name: WinLose
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1713368547
+    data2: 3979459668
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3883761711944467663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,30 +499,6 @@ MonoBehaviour:
   - Grass
   - Stone
   - Sand
-  Exists: 1
---- !u!114 &6220236305537318572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/LittleBoyDialogue/WinLose
-  m_EditorClassIdentifier: 
-  Name: WinLose
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1713368547
-    data2: 3979459668
-  Type: 1
-  IsGlobal: 0
-  Labels: []
   Exists: 1
 --- !u!114 &6612013882862655638
 MonoBehaviour:
