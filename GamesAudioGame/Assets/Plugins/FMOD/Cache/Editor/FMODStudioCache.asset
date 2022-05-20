@@ -107,6 +107,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4194306380753523735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_Dialogue/NPC fight and criespain
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_Dialogue/NPC fight and criespain
+  Guid:
+    Data1: 1832196949
+    Data2: 1311876399
+    Data3: 2072749224
+    Data4: -1261295823
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1687371571749651493}
+  MinDistance: 6.8
+  MaxDistance: 60
+  Length: 0
 --- !u!114 &-3174734233525790248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,10 +227,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637885125409760632
+  lastModified: 637885174770035485
   FileSizes:
   - Name: Desktop
-    Value: 1966
+    Value: 2030
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -230,12 +258,13 @@ MonoBehaviour:
   - {fileID: 3883761711944467663}
   - {fileID: -4788038990630691117}
   - {fileID: 456250241572210731}
+  - {fileID: -4194306380753523735}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637885125409760632
+  cacheTime: 637885174770035485
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -360,10 +389,34 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637885125409720741
+  lastModified: 637885174769995628
   FileSizes:
   - Name: Desktop
-    Value: 5150272
+    Value: 6635360
+  Exists: 1
+--- !u!114 &1687371571749651493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/NPC fight and criespain/Pain
+  m_EditorClassIdentifier: 
+  Name: Pain
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3194137722
+    data2: 216623851
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &3470641282661135134
 MonoBehaviour:

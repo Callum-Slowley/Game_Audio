@@ -219,6 +219,12 @@
 			<destination>{00704978-5ada-4e99-9e94-c471df96352d}</destination>
 			<destination>{baa51916-7bf9-46ec-a400-26f12f422ce2}</destination>
 		</relationship>
+		<relationship name="playPercentages">
+			<destination>{e7a00ebe-7f63-4c58-8d26-7c6a2ce6ceb8}</destination>
+			<destination>{828b218e-90e9-447c-8d19-c97c65c65dde}</destination>
+			<destination>{1c578f18-7f99-47ec-9969-ac43b671ef75}</destination>
+			<destination>{ba67183b-555f-43f6-879e-14e3c44f9aa7}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f89cfa85-abd7-4413-9dfa-09baea8432be}">
 		<property name="volume">
@@ -362,6 +368,38 @@
 	<object class="SingleSound" id="{baa51916-7bf9-46ec-a400-26f12f422ce2}">
 		<relationship name="audioFile">
 			<destination>{1eb52d50-46dc-4e84-b2ba-27cf314d214c}</destination>
+		</relationship>
+	</object>
+	<object class="PlayPercentage" id="{e7a00ebe-7f63-4c58-8d26-7c6a2ce6ceb8}">
+		<property name="percentage">
+			<value>10</value>
+		</property>
+		<relationship name="sound">
+			<destination>{66de0cfc-282c-4b9e-9648-0bedf0e4f23e}</destination>
+		</relationship>
+	</object>
+	<object class="PlayPercentage" id="{828b218e-90e9-447c-8d19-c97c65c65dde}">
+		<property name="percentage">
+			<value>10</value>
+		</property>
+		<relationship name="sound">
+			<destination>{59f21cd5-fe8a-4390-bec4-4269d66a0b1d}</destination>
+		</relationship>
+	</object>
+	<object class="PlayPercentage" id="{1c578f18-7f99-47ec-9969-ac43b671ef75}">
+		<property name="percentage">
+			<value>10</value>
+		</property>
+		<relationship name="sound">
+			<destination>{00704978-5ada-4e99-9e94-c471df96352d}</destination>
+		</relationship>
+	</object>
+	<object class="PlayPercentage" id="{ba67183b-555f-43f6-879e-14e3c44f9aa7}">
+		<property name="percentage">
+			<value>10</value>
+		</property>
+		<relationship name="sound">
+			<destination>{baa51916-7bf9-46ec-a400-26f12f422ce2}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{662dee16-96f0-48a1-9007-713b989b974a}">
