@@ -2763,6 +2763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3760,7 +3764,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 1301464213}
-  TextureOne: {fileID: 1164055239}
 --- !u!1001 &556804969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3771,6 +3774,10 @@ PrefabInstance:
     - target: {fileID: 1679036027631568, guid: f65aca722d376524dbffaaa0c52c6c6d, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Flat_Water_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679036027631568, guid: f65aca722d376524dbffaaa0c52c6c6d, type: 3}
+      propertyPath: m_Layer
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4203866961909890, guid: f65aca722d376524dbffaaa0c52c6c6d, type: 3}
       propertyPath: m_RootOrder
@@ -3917,7 +3924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1371417484069930, guid: a71ca96be1fea454cbec695bb2ee1a34, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4576255045600990, guid: a71ca96be1fea454cbec695bb2ee1a34, type: 3}
       propertyPath: m_RootOrder
@@ -5179,7 +5186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1601898882004978, guid: 20988007df24b1b4c88900cb4d73e405, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4458165570905314, guid: 20988007df24b1b4c88900cb4d73e405, type: 3}
       propertyPath: m_RootOrder
@@ -6379,6 +6386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6585,6 +6596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -6640,6 +6655,62 @@ PrefabInstance:
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 624248703364564469, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1470987122205139958, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1732694779008850479, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120058679233044874, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138327470641943748, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390262917054805747, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2540888971496070232, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3242727140958166118, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889211811502612255, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587293353169002567, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7764751550085247805, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021580242524005945, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102622907783454138, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894250174011577107, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
@@ -8575,6 +8646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -9320,6 +9395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Hex_Mountain_06 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1924017999326212, guid: de1399d234791854fbe161d6782f3995, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4300932604986454, guid: de1399d234791854fbe161d6782f3995, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -9849,11 +9928,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4101475988005956, guid: 10ae8c643ffe8e8489c5aefd9c2a8dbc, type: 3}
   m_PrefabInstance: {fileID: 1157792527}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1164055239 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1083272002639974, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
-  m_PrefabInstance: {fileID: 1128564728}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1170956390
 PrefabInstance:
@@ -10582,6 +10656,10 @@ PrefabInstance:
     - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
@@ -12350,6 +12428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Mountain_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1083272002639974, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4861257535415986, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -12423,6 +12505,10 @@ PrefabInstance:
     - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
@@ -14333,6 +14419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -14616,6 +14706,10 @@ PrefabInstance:
     - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
@@ -16226,6 +16320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -17008,6 +17106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Hex_Mountain_06 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1924017999326212, guid: de1399d234791854fbe161d6782f3995, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4300932604986454, guid: de1399d234791854fbe161d6782f3995, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -17286,6 +17388,10 @@ PrefabInstance:
     - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
@@ -17798,6 +17904,10 @@ PrefabInstance:
     - target: {fileID: 1924017999326212, guid: de1399d234791854fbe161d6782f3995, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Hex_Mountain_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924017999326212, guid: de1399d234791854fbe161d6782f3995, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4300932604986454, guid: de1399d234791854fbe161d6782f3995, type: 3}
       propertyPath: m_RootOrder

@@ -103,7 +103,9 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 378353086152294004}
+  - {fileID: 6585029945186463372}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -227,10 +229,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637885174770035485
+  lastModified: 637886658236462427
   FileSizes:
   - Name: Desktop
-    Value: 2030
+    Value: 2072
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -264,7 +266,7 @@ MonoBehaviour:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637885174770035485
+  cacheTime: 637886658236462427
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -319,6 +321,30 @@ MonoBehaviour:
   MinDistance: 6.4
   MaxDistance: 150
   Length: 0
+--- !u!114 &378353086152294004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonHittingIntoStuff/DragonSpeed
+  m_EditorClassIdentifier: 
+  Name: DragonSpeed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1157642013
+    data2: 4140142849
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &456250241572210731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,10 +415,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637885174769995628
+  lastModified: 637886658236432542
   FileSizes:
   - Name: Desktop
-    Value: 6635360
+    Value: 6734848
   Exists: 1
 --- !u!114 &1687371571749651493
 MonoBehaviour:
@@ -552,6 +578,35 @@ MonoBehaviour:
   - Grass
   - Stone
   - Sand
+  Exists: 1
+--- !u!114 &6585029945186463372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonHittingIntoStuff/ImpactLayer
+  m_EditorClassIdentifier: 
+  Name: ImpactLayer
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 870203683
+    data2: 859738559
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Grass
+  - Stone
+  - Sand
+  - Trees
+  - Water
   Exists: 1
 --- !u!114 &6612013882862655638
 MonoBehaviour:

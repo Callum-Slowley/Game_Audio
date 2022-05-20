@@ -5,44 +5,65 @@ public class ColliderSoundTrigger : MonoBehaviour
     private FMOD.Studio.EventInstance CollisonSound;
 
     // Fmod Varaibles in strings because I'm bang tidy
-    private string FmodEventName = "event:/NPC_Dialogue/LittleBoy";
-    private string FmodParameter = "LittleBoy";
+    private string FmodEventName = "event:/DragonSounds/DragonHittingIntoStuff",
+        FmodImpactVolume = "DragonSpeed",
+        FmodImpactType = "ImpactLayer";
 
     public GameObject MainCamera;
-    public GameObject TextureOne;
     
-
 
     // Basic Collider Script
     void OnCollisionEnter(Collision col)
     {
         // Basic collider for triggering sounds 
         // I'll do the FMOD for hitting different surfaces
-        string CollisionName = col.collider.name;
-        CollisonSound = FMODUnity.RuntimeManager.CreateInstance(FmodEventName);
-        SetParameterSheet(CollisionName);
-        CollisonSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(MainCamera.gameObject));
-        CollisonSound.start();
-        CollisonSound.release();
+        int colliderCollisionValue = col.collider.gameObject.layer;
+        int TriggeredContacted = FlightCollider(colliderCollisionValue);
+        Debug.Log(TriggeredContacted);
 
+        if (TriggeredContacted == 5) ;
+        else
+        {
+            CollisonSound = FMODUnity.RuntimeManager.CreateInstance(FmodEventName);
+            CollisonSound.setParameterByName(FmodImpactVolume, 1);
+            CollisonSound.setParameterByName(FmodImpactType, TriggeredContacted);
+            CollisonSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(MainCamera.gameObject));
+
+            //Play Sound
+            CollisonSound.start();
+            CollisonSound.release();
+        }
 
     }
-    
-    // Wondering if we can set this up using prefabs to trigger different FMOD events.
-    // Could maybe move this into movement and sent the dragon speed control at impact as volume
-    void SetParameterSheet(string ParameterName)
+
+    // Bull to map it to the correct event
+    int FlightCollider(int FlightNumber)
     {
-        //
-        if (TextureOne.name != ParameterName)
+        Debug.Log(FlightNumber);
+        if (FlightNumber == 7)
         {
-            CollisonSound.setParameterByName(FmodParameter, 0);
+            return 0;
+        }
+        else if (FlightNumber == 8)
+        {
+            return 1;
+        }
+        else if (FlightNumber == 9)
+        {
+            return 2;
+        }
+        else if (FlightNumber == 10)
+        {
+            return 3;
+        }
+        else if (FlightNumber == 4)
+        {
+            return 4;
         }
         else
         {
-            CollisonSound.setParameterByName(FmodParameter, 1);
+            return 5;
         }
-
     }
-
-
+    
 }
