@@ -80,6 +80,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5349827840977781698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GAME/Location
+  m_EditorClassIdentifier: 
+  Name: Location
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 2654370417
+    data2: 3021554022
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-4788038990630691117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,7 +127,10 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 378353086152294004}
+  - {fileID: 6585029945186463372}
+  - {fileID: -2525468518530783731}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -212,6 +239,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2525468518530783731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonHittingIntoStuff/Height
+  m_EditorClassIdentifier: 
+  Name: Height
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2361461562
+    data2: 1487938493
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1192232876294462901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,11 +278,66 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637885174770035485
+  lastModified: 637886793395863544
   FileSizes:
   - Name: Desktop
-    Value: 2030
+    Value: 2266
   Exists: 1
+--- !u!114 &-971878732388449627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GAME/Intensity
+  m_EditorClassIdentifier: 
+  Name: Intensity
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1387786066
+    data2: 4273690401
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-471713028120488191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SoundTrack/GAME
+  m_EditorClassIdentifier: 
+  Path: event:/SoundTrack/GAME
+  Guid:
+    Data1: -187899243
+    Data2: 1185910094
+    Data3: 1549402528
+    Data4: -1076157200
+  Banks:
+  - {fileID: 1283715061741343033}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6930630829928201889}
+  - {fileID: -5349827840977781698}
+  - {fileID: -971878732388449627}
+  - {fileID: 7713103758759911208}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 271974
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,12 +365,13 @@ MonoBehaviour:
   - {fileID: -4788038990630691117}
   - {fileID: 456250241572210731}
   - {fileID: -4194306380753523735}
+  - {fileID: -471713028120488191}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637885174770035485
+  cacheTime: 637886793395863544
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -319,6 +426,30 @@ MonoBehaviour:
   MinDistance: 6.4
   MaxDistance: 150
   Length: 0
+--- !u!114 &378353086152294004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonHittingIntoStuff/DragonSpeed
+  m_EditorClassIdentifier: 
+  Name: DragonSpeed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1157642013
+    data2: 4140142849
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &456250241572210731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,10 +520,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637885174769995628
+  lastModified: 637886793395804070
   FileSizes:
   - Name: Desktop
-    Value: 6635360
+    Value: 41154752
   Exists: 1
 --- !u!114 &1687371571749651493
 MonoBehaviour:
@@ -553,6 +684,35 @@ MonoBehaviour:
   - Stone
   - Sand
   Exists: 1
+--- !u!114 &6585029945186463372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonHittingIntoStuff/ImpactLayer
+  m_EditorClassIdentifier: 
+  Name: ImpactLayer
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 870203683
+    data2: 859738559
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Grass
+  - Stone
+  - Sand
+  - Trees
+  - Water
+  Exists: 1
 --- !u!114 &6612013882862655638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,6 +734,30 @@ MonoBehaviour:
     data1: 2986101011
     data2: 577476693
   Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6930630829928201889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GAME/Height
+  m_EditorClassIdentifier: 
+  Name: Height
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2361461562
+    data2: 1487938493
+  Type: 0
   IsGlobal: 0
   Labels: []
   Exists: 1
@@ -624,6 +808,30 @@ MonoBehaviour:
   ID:
     data1: 3730631193
     data2: 2521909097
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7713103758759911208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GAME/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 1372659620
+    data2: 2203932763
   Type: 0
   IsGlobal: 0
   Labels: []
