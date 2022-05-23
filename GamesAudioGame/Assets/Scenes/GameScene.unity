@@ -786,7 +786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 111538672}
   - component: {fileID: 111538671}
-  - component: {fileID: 111538670}
+  - component: {fileID: 111538673}
   m_Layer: 0
   m_Name: SandAreaTrigger
   m_TagString: Untagged
@@ -794,27 +794,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &111538670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111538669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  Emitters:
-  - Target: {fileID: 553048241}
-    Params:
-    - Name: Health
-      Value: 12.9
-    - Name: Location
-      Value: 1
-  TriggerEvent: 5
 --- !u!65 &111538671
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -842,6 +821,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &111538673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111538669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  parameter: Location
+  TriggerEvent: 3
+  value: 0
 --- !u!1 &127066554
 GameObject:
   m_ObjectHideFlags: 0
@@ -3765,7 +3760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
+  CollisionTag: Player
   EventReference:
     Guid:
       Data1: -187899243
@@ -3779,15 +3774,7 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params:
-  - Name: Health
-    Value: 100
-  - Name: Height
-    Value: 0
-  - Name: Intensity
-    Value: 0
-  - Name: Location
-    Value: 1
+  Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -4999,16 +4986,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 643425926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Emitters:
-  - Target: {fileID: 553048241}
-    Params:
-    - Name: Location
-      Value: 1
+  parameter: Location
   TriggerEvent: 3
+  value: 2
 --- !u!65 &643425928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17497,35 +17481,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2093277829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: MainCamera
-  EventReference:
-    Guid:
-      Data1: -187899243
-      Data2: 1185910094
-      Data3: 1549402528
-      Data4: -1076157200
-    Path: event:/SoundTrack/GAME
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: Health
-    Value: 100
-  - Name: Location
-    Value: 1
-  - Name: Height
-    Value: 0
-  - Name: Intensity
-    Value: 0
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  CollisionTag: Player
+  parameter: Location
+  TriggerEvent: 3
+  value: 1
 --- !u!65 &2093277831
 BoxCollider:
   m_ObjectHideFlags: 0

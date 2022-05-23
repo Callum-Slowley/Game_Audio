@@ -74,12 +74,12 @@ MonoBehaviour:
   - {fileID: 1283715061741343033}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: 775131603440181719}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2000
 --- !u!114 &-5349827840977781698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
     data1: 2654370417
     data2: 3021554022
   Type: 1
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-4788038990630691117
@@ -215,6 +215,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2871355087154379304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Location
+  m_EditorClassIdentifier: 
+  Name: Location
+  StudioPath: parameter:/Location
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 2654370417
+    data2: 3021554022
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-2746737786938253440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,7 +302,7 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637886793395863544
+  lastModified: 637889049724773661
   FileSizes:
   - Name: Desktop
     Value: 2266
@@ -366,12 +390,14 @@ MonoBehaviour:
   - {fileID: 456250241572210731}
   - {fileID: -4194306380753523735}
   - {fileID: -471713028120488191}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: -2871355087154379304}
+  - {fileID: 5994523456954718962}
   MasterBanks:
   - {fileID: 1283715061741343033}
   StringsBanks:
   - {fileID: -1192232876294462901}
-  cacheTime: 637886793395863544
+  cacheTime: 637889049724773661
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -500,7 +526,7 @@ MonoBehaviour:
     data1: 3347033762
     data2: 2101149057
   Type: 2
-  IsGlobal: 0
+  IsGlobal: 1
   Labels:
   - Close
   - Far
@@ -520,10 +546,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637886793395804070
+  lastModified: 637889049724717006
   FileSizes:
   - Name: Desktop
-    Value: 41154752
+    Value: 41174368
   Exists: 1
 --- !u!114 &1687371571749651493
 MonoBehaviour:
@@ -683,6 +709,32 @@ MonoBehaviour:
   - Grass
   - Stone
   - Sand
+  Exists: 1
+--- !u!114 &5994523456954718962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CloseToVillage
+  m_EditorClassIdentifier: 
+  Name: CloseToVillage
+  StudioPath: parameter:/CloseToVillage
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3347033762
+    data2: 2101149057
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Close
+  - Far
   Exists: 1
 --- !u!114 &6585029945186463372
 MonoBehaviour:
