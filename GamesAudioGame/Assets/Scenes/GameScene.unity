@@ -786,7 +786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 111538672}
   - component: {fileID: 111538671}
-  - component: {fileID: 111538670}
+  - component: {fileID: 111538673}
   m_Layer: 0
   m_Name: SandAreaTrigger
   m_TagString: Untagged
@@ -794,38 +794,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &111538670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111538669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  Event: 
-  PlayEvent: 3
-  StopEvent: 4
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: DragonHit
-    Value: 0
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!65 &111538671
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -847,12 +815,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111538669}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -376, y: 247, z: -331}
+  m_LocalPosition: {x: -376, y: 175, z: -331}
   m_LocalScale: {x: 501.23972, y: 567.4929, z: 421.19644}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &111538673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111538669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  parameter: Location
+  TriggerEvent: 3
+  value: 0
 --- !u!1 &127066554
 GameObject:
   m_ObjectHideFlags: 0
@@ -2767,6 +2751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3750,6 +3738,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4979045968579492, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
   m_PrefabInstance: {fileID: 104710666}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &553048234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5986814536639107642, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+  m_PrefabInstance: {fileID: 2710032404352505867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &553048240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553048234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5a828b2a88cf544b60cac80e8c5d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 1301464213}
+--- !u!114 &553048241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553048234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -187899243
+      Data2: 1185910094
+      Data3: 1549402528
+      Data4: -1076157200
+    Path: event:/SoundTrack/GAME
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &556804969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3760,6 +3796,10 @@ PrefabInstance:
     - target: {fileID: 1679036027631568, guid: f65aca722d376524dbffaaa0c52c6c6d, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Flat_Water_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679036027631568, guid: f65aca722d376524dbffaaa0c52c6c6d, type: 3}
+      propertyPath: m_Layer
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4203866961909890, guid: f65aca722d376524dbffaaa0c52c6c6d, type: 3}
       propertyPath: m_RootOrder
@@ -3906,7 +3946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1371417484069930, guid: a71ca96be1fea454cbec695bb2ee1a34, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4576255045600990, guid: a71ca96be1fea454cbec695bb2ee1a34, type: 3}
       propertyPath: m_RootOrder
@@ -4958,29 +4998,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 643425926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  Event: 
-  PlayEvent: 3
-  StopEvent: 4
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: DragonHit
-    Value: 0
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  parameter: Location
+  TriggerEvent: 3
+  value: 2
 --- !u!65 &643425928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5003,7 +5027,7 @@ Transform:
   m_GameObject: {fileID: 643425926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -515, y: 214, z: 272}
-  m_LocalScale: {x: 642.45404, y: 567.4929, z: 683.307}
+  m_LocalScale: {x: 642.45404, y: 647, z: 683.307}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -5176,7 +5200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1601898882004978, guid: 20988007df24b1b4c88900cb4d73e405, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4458165570905314, guid: 20988007df24b1b4c88900cb4d73e405, type: 3}
       propertyPath: m_RootOrder
@@ -6380,6 +6404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6586,6 +6614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -6641,6 +6673,62 @@ PrefabInstance:
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 624248703364564469, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1470987122205139958, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1732694779008850479, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120058679233044874, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138327470641943748, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390262917054805747, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2540888971496070232, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3242727140958166118, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889211811502612255, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587293353169002567, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7764751550085247805, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021580242524005945, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102622907783454138, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894250174011577107, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
@@ -8580,6 +8668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -9324,6 +9416,10 @@ PrefabInstance:
     - target: {fileID: 1924017999326212, guid: de1399d234791854fbe161d6782f3995, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Hex_Mountain_06 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924017999326212, guid: de1399d234791854fbe161d6782f3995, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4300932604986454, guid: de1399d234791854fbe161d6782f3995, type: 3}
       propertyPath: m_RootOrder
@@ -10587,6 +10683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -11116,6 +11216,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4232100508571020, guid: 96cc0e46e4f720844a08111c58111b38, type: 3}
   m_PrefabInstance: {fileID: 1299622496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1301464213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5986814538740288737, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+  m_PrefabInstance: {fileID: 2710032404352505867}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1306809225
 PrefabInstance:
@@ -12349,6 +12454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Mountain_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1083272002639974, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4861257535415986, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -12422,6 +12531,10 @@ PrefabInstance:
     - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
@@ -13801,6 +13914,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
+--- !u!1 &1705109130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1283683512731928, guid: 298061cecea9d6649b3822701c0793ac, type: 3}
+  m_PrefabInstance: {fileID: 625755728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1705109136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705109130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1832196949
+      Data2: 1311876399
+      Data3: 2072749224
+      Data4: -1261295823
+    Path: event:/NPC_Dialogue/NPC fight and criespain
+  Event: 
+  PlayEvent: 7
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: Pain
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 6.8
+  OverrideMaxDistance: 60
 --- !u!4 &1707213607 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
@@ -14299,6 +14449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -14582,6 +14736,10 @@ PrefabInstance:
     - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
@@ -16196,6 +16354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -16978,6 +17140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Hex_Mountain_06 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1924017999326212, guid: de1399d234791854fbe161d6782f3995, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4300932604986454, guid: de1399d234791854fbe161d6782f3995, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -17261,6 +17427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tile_Cube_Forest_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -17351,29 +17521,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2093277829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  Event: 
-  PlayEvent: 3
-  StopEvent: 4
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: DragonHit
-    Value: 0
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  parameter: Location
+  TriggerEvent: 3
+  value: 1
 --- !u!65 &2093277831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17776,6 +17930,10 @@ PrefabInstance:
     - target: {fileID: 1924017999326212, guid: de1399d234791854fbe161d6782f3995, type: 3}
       propertyPath: m_Name
       value: SM_Tile_Hex_Mountain_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924017999326212, guid: de1399d234791854fbe161d6782f3995, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4300932604986454, guid: de1399d234791854fbe161d6782f3995, type: 3}
       propertyPath: m_RootOrder
@@ -18501,6 +18659,10 @@ PrefabInstance:
     - target: {fileID: 5612286754152443865, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -6.2236376
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986814536639107640, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5986814536639107641, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
       propertyPath: m_RootOrder
