@@ -4724,14 +4724,14 @@ PrefabInstance:
     - target: {fileID: 9008878358765925447, guid: 1ca8b37ba51d74e89be1971290ffc9ad, type: 3}
       propertyPath: patch
       value: 
-      objectReference: {fileID: 102900000, guid: 2a3adb1366a8f4cdfa6c83199a2281d3, type: 3}
+      objectReference: {fileID: 102900000, guid: bd4722f10b72f428a978239e04998e2b, type: 3}
     - target: {fileID: 9008878358765925447, guid: 1ca8b37ba51d74e89be1971290ffc9ad, type: 3}
       propertyPath: patchDir
       value: /PdAssets/
       objectReference: {fileID: 0}
     - target: {fileID: 9008878358765925447, guid: 1ca8b37ba51d74e89be1971290ffc9ad, type: 3}
       propertyPath: patchName
-      value: main
+      value: fire_crackling
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ca8b37ba51d74e89be1971290ffc9ad, type: 3}
@@ -11305,6 +11305,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5986814538740288737, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
   m_PrefabInstance: {fileID: 2710032404352505867}
   m_PrefabAsset: {fileID: 0}
+--- !u!81 &1301464218
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301464213}
+  m_Enabled: 1
 --- !u!1001 &1306809225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16998,19 +17006,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45ebd1f008d1ccb469bb41a81a4d5e6c, type: 3}
---- !u!1 &1997572073 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1313199503780773319, guid: 1ca8b37ba51d74e89be1971290ffc9ad, type: 3}
-  m_PrefabInstance: {fileID: 627913599}
-  m_PrefabAsset: {fileID: 0}
---- !u!81 &1997572074
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1997572073}
-  m_Enabled: 1
 --- !u!4 &2008893673 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4136697925563684, guid: 5b53e2fc6367e0d4d8eba025aed4bd0a, type: 3}
