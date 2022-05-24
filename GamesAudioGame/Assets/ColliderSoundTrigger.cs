@@ -10,8 +10,12 @@ public class ColliderSoundTrigger : MonoBehaviour
         FmodImpactType = "ImpactLayer";
 
     public GameObject MainCamera;
+    public float velocity;
     
-
+    void Update()
+    {
+        velocity=GetComponent<MusicPasses>().velocity;    
+    }
     // Basic Collider Script
     void OnCollisionEnter(Collision col)
     {
