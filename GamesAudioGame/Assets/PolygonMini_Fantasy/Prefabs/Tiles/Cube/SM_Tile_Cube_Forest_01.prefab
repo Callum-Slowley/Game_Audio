@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13dfb0bf198fc4281a4b51bfe54fe4d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pdPatch: {fileID: 0}
   isOnFire: 0
   fires:
   - {fileID: 2540888971496070232}
@@ -139,6 +140,8 @@ MonoBehaviour:
   - {fileID: 8021580242524005945}
   - {fileID: 2390262917054805747}
   - {fileID: 3242727140958166118}
+  fireTimer: 0
+  fireTimerMax: 6
 --- !u!82 &7024823411825245370
 AudioSource:
   m_ObjectHideFlags: 0
@@ -250,7 +253,7 @@ MonoBehaviour:
   patchName: fire_crackling
   patchDir: /PdAssets/
   patch: {fileID: 102900000, guid: bd4722f10b72f428a978239e04998e2b, type: 3}
-  pipePrintToConsole: 0
+  pipePrintToConsole: 1
   pureDataEvents:
     Bang:
       m_PersistentCalls:
