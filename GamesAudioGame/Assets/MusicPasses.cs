@@ -5,6 +5,7 @@ using UnityEngine;
 public class MusicPasses : MonoBehaviour
 {
     public float velocity;
+    public float Height;
     public Rigidbody rb;
     public FMOD.Studio.EventInstance musicEvent;
 
@@ -20,6 +21,7 @@ public class MusicPasses : MonoBehaviour
     void Update()
     {
         velocity = rb.velocity.magnitude;
+        Height=GetComponent<Movement>().height;
 
         musicEvent.setParameterByName("Intensity", velocity);
     }
