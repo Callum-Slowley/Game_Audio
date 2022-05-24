@@ -51,6 +51,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{6e3d8a66-57cc-4ed4-aaae-c206dc745c0d}">
+		<relationship name="masters">
+			<destination>{f4ded183-0e78-42e9-96ce-bf3656ef132c}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{aa6a5f46-e641-4773-ab70-d6beb753af7e}</destination>
 		</relationship>
@@ -58,7 +61,7 @@
 			<destination>{2e09e8a3-bd99-436a-9261-30df47eba488}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{77e97824-3585-430a-8ba8-6e1df48b4ecd}</destination>
+			<destination>{3a0a3726-e067-4ae0-a80c-c4f5599e35af}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{97388b6a-44f1-4b10-b84d-d15ec0f9ff64}" />
@@ -136,6 +139,9 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{aab1d789-8030-423a-bf27-399a299a9b49}">
+		<property name="volume">
+			<value>-29.5</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{33ca8e42-9a74-47cc-9501-c50f02f6c267}</destination>
 			<destination>{97e8ef53-74f8-4643-a49f-1d3d7d91161b}</destination>
@@ -167,8 +173,11 @@
 			<value>2</value>
 		</property>
 		<property name="volume">
-			<value>-11</value>
+			<value>-6.5</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{41f92469-6157-48d7-8f8b-f4ef33b9413c}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{f66ec8e1-4a7e-48a7-b63d-83ce56180881}</destination>
 			<destination>{4f9ab105-39ee-400b-afc6-89194a82dbdc}</destination>
@@ -279,6 +288,14 @@
 		<relationship name="audioFile">
 			<destination>{1483dff0-a8bc-40f9-b2e1-c2c8ba59bbbb}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{41f92469-6157-48d7-8f8b-f4ef33b9413c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>18.5</value>
+		</property>
 	</object>
 	<object class="SingleSound" id="{f66ec8e1-4a7e-48a7-b63d-83ce56180881}">
 		<relationship name="audioFile">
