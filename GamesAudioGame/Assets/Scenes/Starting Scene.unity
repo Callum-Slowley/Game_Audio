@@ -364,6 +364,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 25b16d458682fb045930ecc0f3ea48c1, type: 3}
   m_PrefabInstance: {fileID: 629064270}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &196967161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196967158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -187899243
+      Data2: 1185910094
+      Data3: 1549402528
+      Data4: -1076157200
+    Path: event:/SoundTrack/GAME
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: Intensity
+    Value: 53.7
+  - Name: Health
+    Value: 55.3
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &319142185
 GameObject:
   m_ObjectHideFlags: 0
