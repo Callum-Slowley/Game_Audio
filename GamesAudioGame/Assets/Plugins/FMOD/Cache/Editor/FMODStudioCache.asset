@@ -146,10 +146,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637890992410000000
+  lastModified: 637891138728088076
   FileSizes:
   - Name: Desktop
-    Value: 3108
+    Value: 2940
   Exists: 1
 --- !u!114 &-6766148033811681738
 MonoBehaviour:
@@ -226,7 +226,7 @@ MonoBehaviour:
     Data3: -1234255232
     Data4: -801062461
   Banks:
-  - {fileID: -5851118492855874916}
+  - {fileID: 593785226542033613}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -304,10 +304,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637890992410000000
+  lastModified: 637891138728038712
   FileSizes:
   - Name: Desktop
-    Value: 44444096
+    Value: 41949792
   Exists: 1
 --- !u!114 &-5849153758374766089
 MonoBehaviour:
@@ -889,7 +889,7 @@ MonoBehaviour:
     Data3: 887916441
     Data4: -106363208
   Banks:
-  - {fileID: -5851118492855874916}
+  - {fileID: 593785226542033613}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1019,7 +1019,7 @@ MonoBehaviour:
     Data3: -326493047
     Data4: -222698375
   Banks:
-  - {fileID: -5851118492855874916}
+  - {fileID: 593785226542033613}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1312,6 +1312,7 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -7301704684878703578}
   - {fileID: -5851118492855874916}
+  - {fileID: 593785226542033613}
   EditorEvents:
   - {fileID: 2390610827819856460}
   - {fileID: -3245048601487962064}
@@ -1341,7 +1342,7 @@ MonoBehaviour:
   - {fileID: -5851118492855874916}
   StringsBanks:
   - {fileID: -7301704684878703578}
-  cacheTime: 637890992410000000
+  cacheTime: 637891141469187259
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -1645,7 +1646,7 @@ MonoBehaviour:
     Data3: -953008720
     Data4: -1198921312
   Banks:
-  - {fileID: -5851118492855874916}
+  - {fileID: 593785226542033613}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1654,6 +1655,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &593785226542033613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/DragonBank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/DragonBank.bank
+  Name: DragonBank
+  StudioPath: bank:/DragonBank
+  lastModified: 637891141469187259
+  FileSizes:
+  - Name: Desktop
+    Value: 2539840
+  Exists: 1
 --- !u!114 &767054160371003924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1770,14 +1791,14 @@ MonoBehaviour:
     Data3: -1699700312
     Data4: 755498899
   Banks:
-  - {fileID: -5851118492855874916}
+  - {fileID: 593785226542033613}
   IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4000
+  Length: 2000
 --- !u!114 &1687371571749651493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1905,7 +1926,7 @@ MonoBehaviour:
     Data3: 777281936
     Data4: -442767917
   Banks:
-  - {fileID: -5851118492855874916}
+  - {fileID: 593785226542033613}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1

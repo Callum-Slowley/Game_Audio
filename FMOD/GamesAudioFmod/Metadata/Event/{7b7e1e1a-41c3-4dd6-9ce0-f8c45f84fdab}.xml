@@ -53,7 +53,7 @@
 			<destination>{f83b8be3-ae5e-48d5-b458-ef14c18ac94c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{77e97824-3585-430a-8ba8-6e1df48b4ecd}</destination>
+			<destination>{87dc5ae0-b1cd-4b0f-a62e-d1488b62156f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{fc4be007-90b0-474e-a4e8-d0bc60f877ec}" />
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1012afba-9c1e-4801-890d-bf96de7748d0}">
+		<property name="volume">
+			<value>-15.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{d767ac00-567e-4107-a104-b0913c79fa93}</destination>
 		</relationship>
@@ -190,7 +193,7 @@
 	<object class="MixerBusFader" id="{b4bbaf98-ab31-46f6-b270-2cff4182cf91}" />
 	<object class="FlangerEffect" id="{b12c9601-810d-4ea5-a96f-011c5657ea6d}">
 		<property name="rate">
-			<value>7</value>
+			<value>20</value>
 		</property>
 		<property name="mix">
 			<value>100</value>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{abf5bfa6-ef41-4f6e-a909-2f8ab45c6574}">
+		<property name="name">
+			<value>DragonBank</value>
+		</property>
+		<relationship name="folder">
+			<destination>{348b819f-97b9-4382-8122-e52cbb6f5d19}</destination>
+		</relationship>
+	</object>
+</objects>

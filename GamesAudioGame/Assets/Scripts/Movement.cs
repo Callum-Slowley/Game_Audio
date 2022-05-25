@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour{
     private CURRENT_TERRAIN currentTerrain;
     
     public FMOD.Studio.EventInstance DragonFootsteps;
+    public FMOD.Studio.EventInstance DragonFire;
     
     private FMOD.Studio.EventInstance idle_lines;
     
@@ -176,14 +177,14 @@ public class Movement : MonoBehaviour{
         }
     }
     public void PlayFireSound(){
-        DragonFootsteps = FMODUnity.RuntimeManager.CreateInstance("event:/DragonSounds/DragonFire");
-        DragonFootsteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.gameObject));
-        DragonFootsteps.start();
-        DragonFootsteps.release();
+        DragonFire = FMODUnity.RuntimeManager.CreateInstance("event:/DragonSounds/DragonFire");
+        DragonFire.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.gameObject));
+        DragonFire.start();
+        DragonFire.release();
     }
     public void DisableFireSound(){
-        DragonFootsteps.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-                DragonFootsteps.release();
+        DragonFire.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        DragonFire.release();
 
     }
     public void PlayFlyingSound(float WingState)
