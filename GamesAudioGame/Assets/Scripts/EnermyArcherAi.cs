@@ -21,11 +21,13 @@ public class EnermyArcherAi : MonoBehaviour
     //states
     public float sightRange, attackRange;
     public bool playerInSightRange,playerInAttackRange;
+    public FMOD.Studio.EventInstance Alert;
 
     // Fmod Stuff
     FMOD.Studio.EventInstance ArcherFireSound;
     public GameObject FMODObject;
     public float BowState = 0;
+    private FMOD.Studio.PLAYBACK_STATE AlertPlaybackState;
 
     private void Awake()
     {
@@ -40,6 +42,7 @@ public class EnermyArcherAi : MonoBehaviour
         if (!playerInSightRange && !playerInAttackRange) Patroling();
         if (playerInSightRange && !playerInAttackRange) ChasePlayer();
         if (playerInSightRange && playerInAttackRange) AttackPlayer();
+        AlertPlaybackState = PlaybackState(Alert);
     }
     private void SearchWalkPoint()
     {
@@ -68,12 +71,39 @@ public class EnermyArcherAi : MonoBehaviour
             walkPointSet = false;
             animator.SetBool("IsWalking", false);
         }
+
+        if (AlertPlaybackState == FMOD.Studio.PLAYBACK_STATE.PLAYING || AlertPlaybackState == FMOD.Studio.PLAYBACK_STATE.STARTING)
+        {
+
+             Debug.Log( " stopped");
+             Alert.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
+        }
     }
     private void ChasePlayer()
     {
         agent.SetDestination(new Vector3(player.position.x,transform.position.y,player.position.z));
         animator.SetBool("IsWalking", true);
+        
+        if (AlertPlaybackState != FMOD.Studio.PLAYBACK_STATE.PLAYING)
+        {
+            Alert = FMODUnity.RuntimeManager.CreateInstance("event:/Villager_Alert/AlertHorn");
+            Alert.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(firingPoint.gameObject));
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CloseToVillage", 0);
+            Alert.start();
+            Alert.release();
+        }
+        Debug.Log(AlertPlaybackState);
     }
+
+    FMOD.Studio.PLAYBACK_STATE PlaybackState(FMOD.Studio.EventInstance instance)
+    {
+        FMOD.Studio.PLAYBACK_STATE pS;
+        instance.getPlaybackState(out pS);
+        return pS;
+    }
+
+
     private void AttackPlayer()
     {
         agent.SetDestination(transform.position);
@@ -82,7 +112,7 @@ public class EnermyArcherAi : MonoBehaviour
         transform.LookAt((new Vector3(player.position.x, transform.position.y, player.position.z)));
         //however the firing point still looks at the player to shoot at it
         firingPoint.transform.LookAt(player);
-
+        
         if (!attacked)
         {
             animator.SetBool("IsAttacking", true);

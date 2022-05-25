@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -844,7 +844,7 @@ MonoBehaviour:
   CollisionTag: Player
   parameter: Location
   TriggerEvent: 3
-  value: 0
+  value: 1
 --- !u!1 &127066554
 GameObject:
   m_ObjectHideFlags: 0
@@ -4803,6 +4803,10 @@ PrefabInstance:
       value: /PdAssets/
       objectReference: {fileID: 0}
     - target: {fileID: 9008878358765925447, guid: 1ca8b37ba51d74e89be1971290ffc9ad, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9008878358765925447, guid: 1ca8b37ba51d74e89be1971290ffc9ad, type: 3}
       propertyPath: patchName
       value: fire_crackling
       objectReference: {fileID: 0}
@@ -5140,7 +5144,7 @@ MonoBehaviour:
   CollisionTag: Player
   parameter: Location
   TriggerEvent: 3
-  value: 2
+  value: 0
 --- !u!65 &643425928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5162,8 +5166,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643425926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -515, y: 214, z: 272}
-  m_LocalScale: {x: 642.45404, y: 647, z: 683.307}
+  m_LocalPosition: {x: -411, y: 214, z: 72}
+  m_LocalScale: {x: 324.54742, y: 647, z: 590.0139}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -5922,6 +5926,67 @@ Transform:
   m_Father: {fileID: 27751499}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 346.011, z: 0}
+--- !u!1 &745166091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 745166094}
+  - component: {fileID: 745166093}
+  - component: {fileID: 745166092}
+  m_Layer: 0
+  m_Name: ForestAreaTrigger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &745166092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745166091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  parameter: Location
+  TriggerEvent: 3
+  value: 3
+--- !u!65 &745166093
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745166091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &745166094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745166091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -805, y: 214, z: -183}
+  m_LocalScale: {x: 324.54742, y: 647, z: 1035.5334}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &746396915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7088,11 +7153,11 @@ PrefabInstance:
       objectReference: {fileID: 1898564608}
     - target: {fileID: 1000042062325529448, guid: 1d5b72a4a31ed7f4f85657115ff4a669, type: 3}
       propertyPath: sightRange
-      value: 64.3
+      value: 184.55
       objectReference: {fileID: 0}
     - target: {fileID: 1000042062325529448, guid: 1d5b72a4a31ed7f4f85657115ff4a669, type: 3}
       propertyPath: attackRange
-      value: 47.8
+      value: 125.6
       objectReference: {fileID: 0}
     - target: {fileID: 1000042062325529448, guid: 1d5b72a4a31ed7f4f85657115ff4a669, type: 3}
       propertyPath: playerInSightRange
@@ -17891,6 +17956,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4877149961671026, guid: 86e216da0abd45e47b3db079ed802697, type: 3}
   m_PrefabInstance: {fileID: 1945663760}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2086465749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 254827889722464792, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+  m_PrefabInstance: {fileID: 2710032404352505867}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2087413582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4979045968579492, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
@@ -18081,7 +18151,7 @@ MonoBehaviour:
   CollisionTag: Player
   parameter: Location
   TriggerEvent: 3
-  value: 1
+  value: 2
 --- !u!65 &2093277831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18104,7 +18174,7 @@ Transform:
   m_GameObject: {fileID: 2093277829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 27, y: 231, z: 64}
-  m_LocalScale: {x: 308.01987, y: 367.6873, z: 394.00366}
+  m_LocalScale: {x: 413.73227, y: 367.6873, z: 666.4966}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -19206,6 +19276,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -179.99998
       objectReference: {fileID: 0}
+    - target: {fileID: 5444924449852906340, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5444924449852906340, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5444924449852906340, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5612286754152443865, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -21.209652
@@ -19269,6 +19351,18 @@ PrefabInstance:
     - target: {fileID: 5986814536639107642, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
       propertyPath: m_Name
       value: DragonController
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986814536639107643, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+      propertyPath: fire
+      value: 
+      objectReference: {fileID: 2086465749}
+    - target: {fileID: 5986814536639107643, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+      propertyPath: cooldownTimer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986814536639107643, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+      propertyPath: idleCoolDownMax
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6062758664032314063, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

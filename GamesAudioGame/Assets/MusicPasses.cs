@@ -14,6 +14,7 @@ public class MusicPasses : MonoBehaviour
     {
             rb = GetComponent<Rigidbody>();
             musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SoundTrack/GAME");
+            musicEvent.setParameterByName("Location", 0);
             musicEvent.start();
     }
 

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{001f7a7a-d88c-4407-8391-7b5239b78792}">
+		<property name="volume">
+			<value>-18.5</value>
+		</property>
 		<property name="name">
 			<value>Music</value>
 		</property>
@@ -17,8 +20,26 @@
 	<object class="MixerBusEffectChain" id="{466809d2-b523-4d01-a54a-0615ee44e257}">
 		<relationship name="effects">
 			<destination>{79e94d51-22e8-4cf2-a776-aeb9a1f01824}</destination>
+			<destination>{b19d4013-9bc3-45e7-89d6-f1539026a09d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fc907edb-2f51-4259-9e14-273288578e59}" />
 	<object class="MixerBusFader" id="{79e94d51-22e8-4cf2-a776-aeb9a1f01824}" />
+	<object class="CompressorEffect" id="{b19d4013-9bc3-45e7-89d6-f1539026a09d}">
+		<property name="threshold">
+			<value>-27</value>
+		</property>
+		<property name="ratio">
+			<value>4.70000029</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>4200</value>
+		</property>
+		<property name="gain">
+			<value>4</value>
+		</property>
+	</object>
 </objects>

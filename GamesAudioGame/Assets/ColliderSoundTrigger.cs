@@ -23,7 +23,6 @@ public class ColliderSoundTrigger : MonoBehaviour
         // I'll do the FMOD for hitting different surfaces
         int colliderCollisionValue = col.collider.gameObject.layer;
         int TriggeredContacted = FlightCollider(colliderCollisionValue);
-        Debug.Log(TriggeredContacted);
 
         if (TriggeredContacted == 5) ;
         else
