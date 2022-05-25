@@ -28,7 +28,7 @@ public class MainMenu : MonoBehaviour
         MenuSounds.release();
     }
         public void optionsNo(){
-        MenuSounds = FMODUnity.RuntimeManager.CreateInstance("event:/Menu/ClickButon");
+        MenuSounds = FMODUnity.RuntimeManager.CreateInstance("event:/Menu/No");
         MenuSounds.start();
         MenuSounds.release();
     }
