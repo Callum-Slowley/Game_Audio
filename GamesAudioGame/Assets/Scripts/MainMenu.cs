@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public FMOD.Studio.EventInstance MenuSounds;
     public GameObject optionsMenu;
 
     public void playButton(){
@@ -17,6 +18,18 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
     public void highLightSound(){
-        Debug.Log("highlight");
+        MenuSounds = FMODUnity.RuntimeManager.CreateInstance("event:/Menu/Hover");
+        MenuSounds.start();
+        MenuSounds.release();
+    }
+    public void clickNoise(){
+        MenuSounds = FMODUnity.RuntimeManager.CreateInstance("event:/Menu/ClickButon");
+        MenuSounds.start();
+        MenuSounds.release();
+    }
+        public void optionsNo(){
+        MenuSounds = FMODUnity.RuntimeManager.CreateInstance("event:/Menu/ClickButon");
+        MenuSounds.start();
+        MenuSounds.release();
     }
 }
