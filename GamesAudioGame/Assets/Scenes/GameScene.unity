@@ -761,6 +761,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
+--- !u!1 &107826716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+  m_PrefabInstance: {fileID: 1529673090}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &107826721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107826716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1874087534
+      Data2: 1310279661
+      Data3: 1918852999
+      Data4: 571116998
+    Path: event:/Forest Sounds/Birds
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0.1
+  OverrideMaxDistance: 77.6
 --- !u!1 &111025472
 GameObject:
   m_ObjectHideFlags: 0
@@ -2512,6 +2547,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+--- !u!1 &307060495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+  m_PrefabInstance: {fileID: 838299924}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &307060500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307060495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1874087534
+      Data2: 1310279661
+      Data3: 1918852999
+      Data4: 571116998
+    Path: event:/Forest Sounds/Birds
+  Event: 
+  PlayEvent: 1
+  StopEvent: 1
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0.1
+  OverrideMaxDistance: 73.9
 --- !u!4 &308588177 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4457184196990762, guid: 45ebd1f008d1ccb469bb41a81a4d5e6c, type: 3}
@@ -4188,6 +4258,36 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5986814536639107642, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
   m_PrefabInstance: {fileID: 2710032404352505867}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &553048235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553048234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -32273967
+      Data2: 1201029287
+      Data3: -2084463727
+      Data4: 25365923
+    Path: event:/Weather/WindSpeed
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &553048240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7612,11 +7712,11 @@ PrefabInstance:
       objectReference: {fileID: 1898564608}
     - target: {fileID: 1000042062325529448, guid: 1d5b72a4a31ed7f4f85657115ff4a669, type: 3}
       propertyPath: sightRange
-      value: 64.3
+      value: 316.8
       objectReference: {fileID: 0}
     - target: {fileID: 1000042062325529448, guid: 1d5b72a4a31ed7f4f85657115ff4a669, type: 3}
       propertyPath: attackRange
-      value: 47.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 1000042062325529448, guid: 1d5b72a4a31ed7f4f85657115ff4a669, type: 3}
       propertyPath: playerInSightRange
@@ -18924,6 +19024,43 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4136697925563684, guid: 5b53e2fc6367e0d4d8eba025aed4bd0a, type: 3}
   m_PrefabInstance: {fileID: 1744612268}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2012115620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
+  m_PrefabInstance: {fileID: 1787486909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2012115625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012115620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1874087534
+      Data2: 1310279661
+      Data3: 1918852999
+      Data4: 571116998
+    Path: event:/Forest Sounds/Birds
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: Birds intence
+    Value: 2
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0.1
+  OverrideMaxDistance: 73.1
 --- !u!1 &2012732227
 GameObject:
   m_ObjectHideFlags: 0

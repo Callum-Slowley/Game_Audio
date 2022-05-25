@@ -71,7 +71,7 @@
 			<value>72</value>
 		</property>
 		<property name="maximumDistance">
-			<value>250</value>
+			<value>200</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{1e9c3544-5320-444b-a307-e1a4fbbb5ae6}" />
@@ -102,6 +102,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{660458d7-580b-41a2-87fe-4b6ae43b2ebf}">
+		<property name="volume">
+			<value>-17.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{96747efb-bcc2-452c-a4e0-bc3aeb94d423}</destination>
 		</relationship>
@@ -137,7 +140,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{46cc6e3f-e47a-4b5f-aa8a-28adc1773763}">
 		<property name="volume">
-			<value>-0.5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -172,7 +175,7 @@
 			<value>5.5999999</value>
 		</property>
 		<property name="pitchRandomization">
-			<value>3.29999995</value>
+			<value>3.70000005</value>
 		</property>
 		<relationship name="sound">
 			<destination>{b2dfe2c8-3e9c-46ea-8a42-1ae38d8fec6e}</destination>
@@ -180,7 +183,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7e69578c-2680-425d-802e-1c83cd2cb2ac}">
 		<property name="volume">
-			<value>2.5</value>
+			<value>-6.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -201,7 +204,14 @@
 			<destination>{c421b14c-31f6-491f-8214-8c85a9f7287d}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{f8bdddbe-7862-4c74-ad3e-ed7d1803467f}" />
+	<object class="MixerBusPanner" id="{f8bdddbe-7862-4c74-ad3e-ed7d1803467f}">
+		<property name="surroundPanDirection">
+			<value>2.08256531</value>
+		</property>
+		<property name="surroundPanExtent">
+			<value>93.8400726</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{cdc6905a-f774-4ec6-b027-282005720cdd}" />
 	<object class="MultiSound" id="{3daec159-1834-48be-8f8b-67f7a6fafafc}">
 		<relationship name="sounds">
@@ -236,7 +246,7 @@
 	<object class="MixerBusFader" id="{0605b152-4171-416f-97a4-d52b642e0059}" />
 	<object class="SpatialiserEffect" id="{c421b14c-31f6-491f-8214-8c85a9f7287d}">
 		<property name="maximumDistance">
-			<value>250</value>
+			<value>200</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{4b6fc1da-fa74-44d7-a3be-0228151810f2}">

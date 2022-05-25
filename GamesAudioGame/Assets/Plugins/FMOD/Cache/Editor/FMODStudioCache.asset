@@ -146,10 +146,34 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637891138728088076
+  lastModified: 637891206446411279
   FileSizes:
   - Name: Desktop
-    Value: 2940
+    Value: 3266
+  Exists: 1
+--- !u!114 &-6871543384689862683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Birds/Birds intence
+  m_EditorClassIdentifier: 
+  Name: Birds intence
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 893964930
+    data2: 527201296
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-6766148033811681738
 MonoBehaviour:
@@ -289,6 +313,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-6341279745758454449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Birds/Location
+  m_EditorClassIdentifier: 
+  Name: Location
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 2654370417
+    data2: 3021554022
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-5851118492855874916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,10 +352,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637891138728038712
+  lastModified: 637891206446361411
   FileSizes:
   - Name: Desktop
-    Value: 41949792
+    Value: 41950656
   Exists: 1
 --- !u!114 &-5849153758374766089
 MonoBehaviour:
@@ -504,7 +552,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: -2227037634886559431}
   MinDistance: 1
-  MaxDistance: 250
+  MaxDistance: 550
   Length: 32000
 --- !u!114 &-5054076420847878856
 MonoBehaviour:
@@ -923,6 +971,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-3152892455823425301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindSpeed/DragonSpeed
+  m_EditorClassIdentifier: 
+  Name: DragonSpeed
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1157642013
+    data2: 4140142849
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-2879047209262236601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1313,6 +1385,7 @@ MonoBehaviour:
   - {fileID: -7301704684878703578}
   - {fileID: -5851118492855874916}
   - {fileID: 593785226542033613}
+  - {fileID: 6913943958220501979}
   EditorEvents:
   - {fileID: 2390610827819856460}
   - {fileID: -3245048601487962064}
@@ -1333,6 +1406,8 @@ MonoBehaviour:
   - {fileID: 6846384570465412802}
   - {fileID: -5174943471850185953}
   - {fileID: 7350467401042284868}
+  - {fileID: 4287018182741264072}
+  - {fileID: 3016910664587620132}
   EditorParameters:
   - {fileID: -754111146722796886}
   - {fileID: 6812120796623803006}
@@ -1342,7 +1417,7 @@ MonoBehaviour:
   - {fileID: -5851118492855874916}
   StringsBanks:
   - {fileID: -7301704684878703578}
-  cacheTime: 637891141469187259
+  cacheTime: 637891206446980694
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -1670,10 +1745,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/DragonBank.bank
   Name: DragonBank
   StudioPath: bank:/DragonBank
-  lastModified: 637891141469187259
+  lastModified: 637891206442094526
   FileSizes:
   - Name: Desktop
-    Value: 2539840
+    Value: 2722528
   Exists: 1
 --- !u!114 &767054160371003924
 MonoBehaviour:
@@ -1936,6 +2011,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2888881255477497126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Birds/Height
+  m_EditorClassIdentifier: 
+  Name: Height
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2361461562
+    data2: 1487938493
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &2900925059953278936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1967,6 +2066,36 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 271974
+--- !u!114 &3016910664587620132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Forest Sounds/Birds
+  m_EditorClassIdentifier: 
+  Path: event:/Forest Sounds/Birds
+  Guid:
+    Data1: -1874087534
+    Data2: 1310279661
+    Data3: 1918852999
+    Data4: 571116998
+  Banks:
+  - {fileID: 6913943958220501979}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2888881255477497126}
+  - {fileID: -6871543384689862683}
+  - {fileID: -6341279745758454449}
+  MinDistance: 0.1
+  MaxDistance: 200
+  Length: 0
 --- !u!114 &3026080927803648738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2228,6 +2357,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &4287018182741264072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weather/WindSpeed
+  m_EditorClassIdentifier: 
+  Path: event:/Weather/WindSpeed
+  Guid:
+    Data1: -32273967
+    Data2: 1201029287
+    Data3: -2084463727
+    Data4: 25365923
+  Banks:
+  - {fileID: 593785226542033613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3152892455823425301}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13000
 --- !u!114 &4310137896007178379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2487,7 +2644,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: 214805589497406251}
   MinDistance: 1.4
-  MaxDistance: 95
+  MaxDistance: 30
   Length: 4700
 --- !u!114 &5917674725889843156
 MonoBehaviour:
@@ -2565,7 +2722,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: 7074515987123785369}
   MinDistance: 1
-  MaxDistance: 250
+  MaxDistance: 200
   Length: 0
 --- !u!114 &6350699102772496662
 MonoBehaviour:
@@ -2697,6 +2854,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1104
+--- !u!114 &6913943958220501979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EnviromentSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/EnviromentSounds.bank
+  Name: EnviromentSounds
+  StudioPath: bank:/EnviromentSounds
+  lastModified: 637891206446980694
+  FileSizes:
+  - Name: Desktop
+    Value: 10120320
+  Exists: 1
 --- !u!114 &6930630829928201889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2848,7 +3025,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: 166537320988902314}
   MinDistance: 1
-  MaxDistance: 250
+  MaxDistance: 650
   Length: 32000
 --- !u!114 &7570638429294133121
 MonoBehaviour:

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{736b75aa-aa8e-4e7c-8aa6-6fdfdd701646}">
+		<property name="name">
+			<value>Birds intence</value>
+		</property>
+		<relationship name="folder">
+			<destination>{115624b8-1187-4d81-8f92-cf398a1a72dc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d06975d4-cc41-460f-94c9-5b752ceb360f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d06975d4-cc41-460f-94c9-5b752ceb360f}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
