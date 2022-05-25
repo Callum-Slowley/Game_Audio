@@ -29,4 +29,11 @@ public class DestructableObjects : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+        private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Fire"){
+            isOnFire = true;
+        }
+    }
+    
 }

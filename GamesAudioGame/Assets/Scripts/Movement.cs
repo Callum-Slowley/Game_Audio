@@ -14,7 +14,9 @@ public class Movement : MonoBehaviour{
     private FMOD.Studio.EventInstance idle_lines;
     
     public Rigidbody rb;
+    public GameObject fire;
     public bool isFlying;
+    public bool isAttacking;
     public float movementSpeed = 100f;
     public float resetSpeed = 100f;
     public float shiftSpeed = 150f;
@@ -69,9 +71,19 @@ public class Movement : MonoBehaviour{
         speed = Mathf.Round(rb.velocity.magnitude * 1000f) / 1000f;
 
         cooldownTimer += 1*Time.deltaTime;
-        if(cooldownTimer>=idleCoolDownMax){
+        if(cooldownTimer>=idleCoolDownMax && !isAttacking){
             PlayLine(height);
             cooldownTimer=0;
+        }
+        if(Input.GetKey(KeyCode.Mouse0)){
+            isAttacking = true;
+            dragonAnimator.SetBool("isAttacking",isAttacking);
+            fire.SetActive(isAttacking);
+        }
+        else{
+            isAttacking = false;
+            dragonAnimator.SetBool("isAttacking",isAttacking);
+            fire.SetActive(isAttacking);
         }
     }
 
@@ -98,6 +110,12 @@ public class Movement : MonoBehaviour{
         //transform.position += transform.right * Input.GetAxis("Horizontal") * Time.deltaTime * movementSpeed;
         Vector3 dir= transform.forward * Input.GetAxis("Vertical") * Time.deltaTime * movementSpeed;
         rb.AddForce(dir,ForceMode.VelocityChange);
+    }
+    void fireActive(){
+
+    }
+    void fireDisable(){
+
     }
 
     private void DetermineTerrain()
