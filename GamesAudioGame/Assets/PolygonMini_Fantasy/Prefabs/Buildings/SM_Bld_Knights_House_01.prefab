@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23981695732558302}
   - component: {fileID: 2899219091217193949}
   - component: {fileID: 2625129641288476008}
-  - component: {fileID: 2119972458162759111}
+  - component: {fileID: 7606453734556829274}
   m_Layer: 0
   m_Name: SM_Bld_Knights_House_01
   m_TagString: Untagged
@@ -115,7 +115,7 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.44700003, z: -0.009000001}
   m_TimeToStationary: 0.5
---- !u!114 &2119972458162759111
+--- !u!114 &7606453734556829274
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,12 +124,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1648905886851508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13dfb0bf198fc4281a4b51bfe54fe4d4, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d2dd392c54b14b88b1c52b8efe9f99c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isOnFire: 0
   fires:
   - {fileID: 1920350069726527249}
+  fireTimer: 0
+  fireTimerMax: 6
 --- !u!1001 &1918657590032817357
 PrefabInstance:
   m_ObjectHideFlags: 0

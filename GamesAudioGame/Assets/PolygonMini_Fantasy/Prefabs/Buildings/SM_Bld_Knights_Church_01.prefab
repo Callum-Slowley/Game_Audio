@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23657024924715774}
   - component: {fileID: 3350497955366817123}
   - component: {fileID: 5442802111106343972}
-  - component: {fileID: 8344576658258120833}
+  - component: {fileID: 3692464870560826319}
   m_Layer: 0
   m_Name: SM_Bld_Knights_Church_01
   m_TagString: Untagged
@@ -117,7 +117,7 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.92200005, z: 0}
   m_TimeToStationary: 0.5
---- !u!114 &8344576658258120833
+--- !u!114 &3692464870560826319
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1283683512731928}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13dfb0bf198fc4281a4b51bfe54fe4d4, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d2dd392c54b14b88b1c52b8efe9f99c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isOnFire: 0
@@ -134,6 +134,8 @@ MonoBehaviour:
   - {fileID: 4791603223021735352}
   - {fileID: 6698585916792926881}
   - {fileID: 5062236337397741330}
+  fireTimer: 0
+  fireTimerMax: 6
 --- !u!1001 &4790106690817916810
 PrefabInstance:
   m_ObjectHideFlags: 0

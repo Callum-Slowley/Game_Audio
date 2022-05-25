@@ -84,6 +84,7 @@ public class Movement : MonoBehaviour{
             isAttacking = false;
             dragonAnimator.SetBool("isAttacking",isAttacking);
             fire.SetActive(isAttacking);
+            DisableFireSound();
         }
 
 
@@ -116,13 +117,6 @@ public class Movement : MonoBehaviour{
         Vector3 dir= transform.forward * Input.GetAxis("Vertical") * Time.deltaTime * movementSpeed;
         rb.AddForce(dir,ForceMode.VelocityChange);
     }
-    void fireActive(){
-
-    }
-    void fireDisable(){
-
-    }
-
     private void DetermineTerrain()
     {
         RaycastHit[] hit;
@@ -186,6 +180,11 @@ public class Movement : MonoBehaviour{
         DragonFootsteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.gameObject));
         DragonFootsteps.start();
         DragonFootsteps.release();
+    }
+    public void DisableFireSound(){
+        DragonFootsteps.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+                DragonFootsteps.release();
+
     }
     public void PlayFlyingSound(float WingState)
     {

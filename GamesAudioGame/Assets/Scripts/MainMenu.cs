@@ -16,4 +16,7 @@ public class MainMenu : MonoBehaviour
     public void exitButton(){
         Application.Quit();
     }
+    public void highLightSound(){
+        Debug.Log("highlight");
+    }
 }
