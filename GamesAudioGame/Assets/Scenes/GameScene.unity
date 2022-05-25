@@ -2984,6 +2984,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5294140042283945381, guid: e081053b0dcd25c40a418acf787e702e, type: 3}
+      propertyPath: soundLocation
+      value: event:/WaterFountin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e081053b0dcd25c40a418acf787e702e, type: 3}
 --- !u!4 &439176445 stripped
@@ -4735,6 +4739,10 @@ PrefabInstance:
     - target: {fileID: 4140647414536842, guid: 298061cecea9d6649b3822701c0793ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692464870560826319, guid: 298061cecea9d6649b3822701c0793ac, type: 3}
+      propertyPath: soundLocation
+      value: event:/village
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 298061cecea9d6649b3822701c0793ac, type: 3}

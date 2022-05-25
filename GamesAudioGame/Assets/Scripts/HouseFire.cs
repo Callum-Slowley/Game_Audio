@@ -11,6 +11,15 @@ public class HouseFire : MonoBehaviour
     public string soundLocation; 
     public FMOD.Studio.EventInstance fireSound;
 
+    void Start() {
+        if(soundLocation != ""){
+            fireSound = FMODUnity.RuntimeManager.CreateInstance(soundLocation);
+            fireSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(transform.position));
+            fireSound.setParameterByName("buildingFire", 0);
+            fireSound.start();
+            fireSound.release();
+    }
+}
     // Update is called once per frame
     void Update()
     {
@@ -26,6 +35,9 @@ public class HouseFire : MonoBehaviour
 
         if(fireTimer >= fireTimerMax){
             isOnFire=false;
+            fireSound.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            fireSound.release();
+            fireSound.release();
             Destroy(this.gameObject);
         }
     }
@@ -33,9 +45,14 @@ public class HouseFire : MonoBehaviour
     {
         if(other.tag == "Fire"){
             isOnFire = true;
-                fireSound = FMODUnity.RuntimeManager.CreateInstance(soundLocation);
+            if(soundLocation==""){
+                return;
+            }
+            else{
+                fireSound.setParameterByName("buildingFire", 1);
                 fireSound.start();
                 fireSound.release();
+            }
         }
     }
     
