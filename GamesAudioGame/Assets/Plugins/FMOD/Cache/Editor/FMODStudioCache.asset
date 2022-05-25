@@ -23,7 +23,7 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Labels: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8300562545923956893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637890056200000000
+  lastModified: 637890816380000000
   FileSizes:
   - Name: Desktop
     Value: 2642
@@ -298,7 +298,7 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637890056200000000
+  lastModified: 637890816380000000
   FileSizes:
   - Name: Desktop
     Value: 42004704
@@ -627,8 +627,7 @@ MonoBehaviour:
     Data2: 1241148956
     Data3: -326493047
     Data4: -222698375
-  Banks:
-  - {fileID: -5851118492855874916}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1086,7 +1085,7 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 1
   Labels: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-567303638603953860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1149,8 +1148,7 @@ MonoBehaviour:
     Data2: 1317710277
     Data3: 148516226
     Data4: -1433688389
-  Banks:
-  - {fileID: -5851118492855874916}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1253,7 +1251,7 @@ MonoBehaviour:
   - {fileID: -5851118492855874916}
   StringsBanks:
   - {fileID: -7301704684878703578}
-  cacheTime: 637890056200000000
+  cacheTime: 637890816380000000
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -1479,8 +1477,7 @@ MonoBehaviour:
     Data2: 1309836977
     Data3: -1699700312
     Data4: 755498899
-  Banks:
-  - {fileID: -5851118492855874916}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1783,8 +1780,7 @@ MonoBehaviour:
     Data2: 1194599623
     Data3: -1888201573
     Data4: -673263935
-  Banks:
-  - {fileID: -5851118492855874916}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2243,7 +2239,7 @@ MonoBehaviour:
   Labels:
   - Close
   - Far
-  Exists: 1
+  Exists: 0
 --- !u!114 &5232720565716801558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2362,8 +2358,7 @@ MonoBehaviour:
     Data2: 1185910094
     Data3: 1549402528
     Data4: -1076157200
-  Banks:
-  - {fileID: -5851118492855874916}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2595,8 +2590,7 @@ MonoBehaviour:
     Data2: 1235257870
     Data3: -426130533
     Data4: 1164077499
-  Banks:
-  - {fileID: -5851118492855874916}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2628,7 +2622,7 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Labels: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &8350386526706381437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2683,7 +2677,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 8220535422306766280}
-  - {fileID: -1474838467450131297}
+  - {fileID: 0}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -2753,8 +2747,7 @@ MonoBehaviour:
     Data2: 1092727724
     Data3: -1234255232
     Data4: -801062461
-  Banks:
-  - {fileID: -5851118492855874916}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
