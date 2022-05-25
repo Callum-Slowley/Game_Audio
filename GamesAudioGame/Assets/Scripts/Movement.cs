@@ -115,7 +115,7 @@ public class Movement : MonoBehaviour{
         //Currently cant move left our right think that would be better just for the floor?
         //transform.position += transform.right * Input.GetAxis("Horizontal") * Time.deltaTime * movementSpeed;
         Vector3 dir= transform.forward * Input.GetAxis("Vertical") * Time.deltaTime * movementSpeed;
-        rb.AddForce(dir,ForceMode.VelocityChange);
+        rb.AddForce(dir,ForceMode.Acceleration);
     }
     private void DetermineTerrain()
     {

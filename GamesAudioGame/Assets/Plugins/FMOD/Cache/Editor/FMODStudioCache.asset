@@ -107,32 +107,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-7527637512100225989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AlertHorn/CloseToVillage
-  m_EditorClassIdentifier: 
-  Name: CloseToVillage
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3347033762
-    data2: 2101149057
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Close
-  - Far
-  Exists: 1
 --- !u!114 &-7451904609295330928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,10 +146,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637890913468569644
+  lastModified: 637890882980000000
   FileSizes:
   - Name: Desktop
-    Value: 2926
+    Value: 2642
   Exists: 1
 --- !u!114 &-6766148033811681738
 MonoBehaviour:
@@ -330,10 +304,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637890913468509800
+  lastModified: 637890882980000000
   FileSizes:
   - Name: Desktop
-    Value: 42990560
+    Value: 42005120
   Exists: 1
 --- !u!114 &-5849153758374766089
 MonoBehaviour:
@@ -841,33 +815,6 @@ MonoBehaviour:
   - Close
   - Far
   Exists: 1
---- !u!114 &-3505823004714330833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Menu/ClickButon
-  m_EditorClassIdentifier: 
-  Path: event:/Menu/ClickButon
-  Guid:
-    Data1: -72450586
-    Data2: 1088917902
-    Data3: 1846565251
-    Data4: -2001326444
-  Banks:
-  - {fileID: -5851118492855874916}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
 --- !u!114 &-3245048601487962064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,35 +839,11 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3197473158497753959}
   - {fileID: -1991276693828975648}
+  - {fileID: 4432181589995755399}
   MinDistance: 1
   MaxDistance: 20
   Length: 780
---- !u!114 &-3197473158497753959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DragonWings/Height
-  m_EditorClassIdentifier: 
-  Name: Height
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2361461562
-    data2: 1487938493
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &-3174734233525790248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,30 +972,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3520
---- !u!114 &-2606916542032701931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DragonSpeed
-  m_EditorClassIdentifier: 
-  Name: DragonSpeed
-  StudioPath: parameter:/DragonSpeed
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 1157642013
-    data2: 4140142849
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &-2525468518530783731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1345,22 +1244,18 @@ MonoBehaviour:
   - {fileID: 1565382773233309568}
   - {fileID: -8897580780960448933}
   - {fileID: -6661074066692162321}
-  - {fileID: 5379888500055734985}
   - {fileID: 5106650020763783646}
-  - {fileID: 4730389620369476197}
-  - {fileID: -3505823004714330833}
   - {fileID: -4660921595335648033}
   - {fileID: -2637859794962936694}
   EditorParameters:
   - {fileID: -754111146722796886}
   - {fileID: 6812120796623803006}
-  - {fileID: -2606916542032701931}
   - {fileID: 7083649986170835601}
   MasterBanks:
   - {fileID: -5851118492855874916}
   StringsBanks:
   - {fileID: -7301704684878703578}
-  cacheTime: 637890913468569644
+  cacheTime: 637890882980000000
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -1796,7 +1691,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: 8893036015490193668}
   MinDistance: 0
-  MaxDistance: 35
+  MaxDistance: 350
   Length: 18000
 --- !u!114 &2370282071266080037
 MonoBehaviour:
@@ -2199,6 +2094,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &4432181589995755399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonWings/DragonSpeed
+  m_EditorClassIdentifier: 
+  Name: DragonSpeed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1157642013
+    data2: 4140142849
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &4479227221732127393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2228,34 +2147,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 780
---- !u!114 &4730389620369476197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Villager_Alert/AlertHorn
-  m_EditorClassIdentifier: 
-  Path: event:/Villager_Alert/AlertHorn
-  Guid:
-    Data1: 227926480
-    Data2: 1178600996
-    Data3: -2023176314
-    Data4: 1968149550
-  Banks:
-  - {fileID: -5851118492855874916}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -7527637512100225989}
-  MinDistance: 1
-  MaxDistance: 250
-  Length: 0
 --- !u!114 &4800776768993783509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2388,33 +2279,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &5379888500055734985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Menu/Hover
-  m_EditorClassIdentifier: 
-  Path: event:/Menu/Hover
-  Guid:
-    Data1: -1766869308
-    Data2: 1131773334
-    Data3: -1828900171
-    Data4: -391412822
-  Banks:
-  - {fileID: -5851118492855874916}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 500
 --- !u!114 &5653368311204505316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2710,13 +2574,13 @@ MonoBehaviour:
   Name: DragonSpeed
   StudioPath: 
   Min: 0
-  Max: 100
+  Max: 1
   Default: 0
   ID:
     data1: 1157642013
     data2: 4140142849
   Type: 0
-  IsGlobal: 1
+  IsGlobal: 0
   Labels: []
   Exists: 1
 --- !u!114 &7713103758759911208
