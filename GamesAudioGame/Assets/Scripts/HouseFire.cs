@@ -8,6 +8,8 @@ public class HouseFire : MonoBehaviour
     public GameObject[] fires;
     public float fireTimer =0;
     public float fireTimerMax=6;
+    public string soundLocation; 
+    public FMOD.Studio.EventInstance fireSound;
 
     // Update is called once per frame
     void Update()
@@ -31,6 +33,9 @@ public class HouseFire : MonoBehaviour
     {
         if(other.tag == "Fire"){
             isOnFire = true;
+                fireSound = FMODUnity.RuntimeManager.CreateInstance(soundLocation);
+                fireSound.start();
+                fireSound.release();
         }
     }
     
