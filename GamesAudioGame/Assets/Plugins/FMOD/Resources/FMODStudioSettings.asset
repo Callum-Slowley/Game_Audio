@@ -371,8 +371,14 @@ MonoBehaviour:
   - Master
   Banks:
   - DragonBank
+  - DragonBank.assets
   - EnviromentSounds
+<<<<<<< Updated upstream
   - Music
+=======
+  - EnviromentSounds.assets
+  - Master.assets
+>>>>>>> Stashed changes
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
@@ -385,7 +391,7 @@ MonoBehaviour:
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131588
   HideSetupWizard: 1
-  LastEventReferenceScanVersion: 0
+  LastEventReferenceScanVersion: 131588
   Platforms:
   - {fileID: -7950412491981675765}
   - {fileID: -6150238612994124697}
