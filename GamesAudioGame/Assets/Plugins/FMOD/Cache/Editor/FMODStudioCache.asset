@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9099049164320844703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.assets.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.assets.bank
+  Name: Master.assets
+  StudioPath: bank:/Master.assets
+  lastModified: 637891720560000000
+  FileSizes:
+  - Name: Desktop
+    Value: 42710912
+  Exists: 1
 --- !u!114 &-8897580780960448933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +128,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7625002879985107132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/ClickButon
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/ClickButon
+  Guid:
+    Data1: -72450586
+    Data2: 1088917902
+    Data3: 1846565251
+    Data4: -2001326444
+  Banks:
+  - {fileID: -5851118492855874916}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &-7586514472965581457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +203,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-7392898294524981485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/Hover
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/Hover
+  Guid:
+    Data1: -1766869308
+    Data2: 1131773334
+    Data3: -1828900171
+    Data4: -391412822
+  Banks:
+  - {fileID: -5851118492855874916}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &-7301704684878703578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,12 +245,19 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< Updated upstream
   lastModified: 637891661200000000
   FileSizes:
   - Name: Desktop
     Value: 3450
+=======
+  lastModified: 637891720560000000
+  FileSizes:
+  - Name: Desktop
+    Value: 3560
+>>>>>>> Stashed changes
   Exists: 1
---- !u!114 &-6871543384689862683
+--- !u!114 &-6924096493990395824
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,21 +266,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Birds/Birds intence
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Village
   m_EditorClassIdentifier: 
-  Name: Birds intence
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 893964930
-    data2: 527201296
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: event:/Village
+  Guid:
+    Data1: -1666552578
+    Data2: 1081301562
+    Data3: -253911399
+    Data4: 391257171
+  Banks:
+  - {fileID: -5851118492855874916}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1939080549090816086}
+  MinDistance: 0
+  MaxDistance: 300
+  Length: 32000
 --- !u!114 &-6766148033811681738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +360,7 @@ MonoBehaviour:
     Data3: -1234255232
     Data4: -801062461
   Banks:
-  - {fileID: 593785226542033613}
+  - {fileID: -1179421785029033179}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -377,10 +462,17 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< Updated upstream
   lastModified: 637891661200000000
   FileSizes:
   - Name: Desktop
     Value: 41934112
+=======
+  lastModified: 637891720550000000
+  FileSizes:
+  - Name: Desktop
+    Value: 195408
+>>>>>>> Stashed changes
   Exists: 1
 --- !u!114 &-5849153758374766089
 MonoBehaviour:
@@ -498,6 +590,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-5477189352799160544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WaterFountin
+  m_EditorClassIdentifier: 
+  Path: event:/WaterFountin
+  Guid:
+    Data1: -629451137
+    Data2: 1335035855
+    Data3: -1639133288
+    Data4: -1291288168
+  Banks:
+  - {fileID: -5851118492855874916}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 784544326032717284}
+  MinDistance: 0
+  MaxDistance: 150
+  Length: 32000
 --- !u!114 &-5349827840977781698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,6 +671,7 @@ MonoBehaviour:
   MinDistance: 6.4
   MaxDistance: 150
   Length: 0
+<<<<<<< Updated upstream
 --- !u!114 &-5174943471850185953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,6 +700,8 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 150
   Length: 32000
+=======
+>>>>>>> Stashed changes
 --- !u!114 &-5054076420847878856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,33 +780,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-4665860831055876883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Menu/Hover
-  m_EditorClassIdentifier: 
-  Path: event:/Menu/Hover
-  Guid:
-    Data1: -1766869308
-    Data2: 1131773334
-    Data3: -1828900171
-    Data4: -391412822
-  Banks:
-  - {fileID: -5851118492855874916}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 500
 --- !u!114 &-4660921595335648033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -738,6 +834,26 @@ MonoBehaviour:
   Labels:
   - Bow Draw
   - Bow Release
+  Exists: 1
+--- !u!114 &-4548019871660199547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/DragonBank.assets.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/DragonBank.assets.bank
+  Name: DragonBank.assets
+  StudioPath: bank:/DragonBank.assets
+  lastModified: 637891720550000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2658112
   Exists: 1
 --- !u!114 &-4406996351216124035
 MonoBehaviour:
@@ -1010,17 +1126,47 @@ MonoBehaviour:
     Data3: 887916441
     Data4: -106363208
   Banks:
-  - {fileID: 593785226542033613}
+  - {fileID: -1179421785029033179}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
   - {fileID: -1991276693828975648}
+<<<<<<< Updated upstream
   - {fileID: 4310137896007178379}
   - {fileID: -3712709951810257271}
+=======
+  - {fileID: -1677379600565057243}
+>>>>>>> Stashed changes
   MinDistance: 1
   MaxDistance: 20
   Length: 780
+--- !u!114 &-3182553184790239140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AlertHorn/CloseToVillage
+  m_EditorClassIdentifier: 
+  Name: CloseToVillage
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3347033762
+    data2: 2101149057
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Close
+  - Far
+  Exists: 1
 --- !u!114 &-3174734233525790248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,7 +1311,7 @@ MonoBehaviour:
     Data3: -326493047
     Data4: -222698375
   Banks:
-  - {fileID: 593785226542033613}
+  - {fileID: -1179421785029033179}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1221,7 +1367,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-2227037634886559431
+--- !u!114 &-2124006077958266388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1230,20 +1376,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WaterFountin/buildingFire
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EnviromentSounds.bank
   m_EditorClassIdentifier: 
-  Name: buildingFire
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3318599012
-    data2: 1782242724
-  Type: 1
-  IsGlobal: 0
-  Labels: []
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/EnviromentSounds.bank
+  Name: EnviromentSounds
+  StudioPath: bank:/EnviromentSounds
+  lastModified: 637891720550000000
+  FileSizes:
+  - Name: Desktop
+    Value: 10474
   Exists: 1
 --- !u!114 &-1991276693828975648
 MonoBehaviour:
@@ -1269,6 +1411,78 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-1939080549090816086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Village/buildingFire
+  m_EditorClassIdentifier: 
+  Name: buildingFire
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3318599012
+    data2: 1782242724
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1709590066867086821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Birds/Birds intence
+  m_EditorClassIdentifier: 
+  Name: Birds intence
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 893964930
+    data2: 527201296
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1677379600565057243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonWings/Height
+  m_EditorClassIdentifier: 
+  Name: Height
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2361461562
+    data2: 1487938493
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1192232876294462901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1288,6 +1502,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 2266
+  Exists: 1
+--- !u!114 &-1179421785029033179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/DragonBank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/DragonBank.bank
+  Name: DragonBank
+  StudioPath: bank:/DragonBank
+  lastModified: 637891720550000000
+  FileSizes:
+  - Name: Desktop
+    Value: 64772
   Exists: 1
 --- !u!114 &-971878732388449627
 MonoBehaviour:
@@ -1458,9 +1692,17 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -7301704684878703578}
   - {fileID: -5851118492855874916}
+<<<<<<< Updated upstream
   - {fileID: 593785226542033613}
   - {fileID: 6913943958220501979}
   - {fileID: 8727026671277315937}
+=======
+  - {fileID: -1179421785029033179}
+  - {fileID: -2124006077958266388}
+  - {fileID: -4548019871660199547}
+  - {fileID: 5420973313328494209}
+  - {fileID: -9099049164320844703}
+>>>>>>> Stashed changes
   EditorEvents:
   - {fileID: 2390610827819856460}
   - {fileID: -3245048601487962064}
@@ -1475,15 +1717,19 @@ MonoBehaviour:
   - {fileID: 5106650020763783646}
   - {fileID: -4660921595335648033}
   - {fileID: -2637859794962936694}
-  - {fileID: -4665860831055876883}
-  - {fileID: 6216958203661894186}
-  - {fileID: 767054160371003924}
-  - {fileID: 6846384570465412802}
-  - {fileID: -5174943471850185953}
-  - {fileID: 7350467401042284868}
   - {fileID: 4287018182741264072}
   - {fileID: 3016910664587620132}
+<<<<<<< Updated upstream
   - {fileID: 2251561737552665474}
+=======
+  - {fileID: 681853085824152467}
+  - {fileID: -5477189352799160544}
+  - {fileID: -7392898294524981485}
+  - {fileID: 8902459401069925152}
+  - {fileID: -7625002879985107132}
+  - {fileID: -6924096493990395824}
+  - {fileID: 7910585780009613246}
+>>>>>>> Stashed changes
   EditorParameters:
   - {fileID: -754111146722796886}
   - {fileID: 6812120796623803006}
@@ -1494,7 +1740,11 @@ MonoBehaviour:
   - {fileID: -5851118492855874916}
   StringsBanks:
   - {fileID: -7301704684878703578}
+<<<<<<< Updated upstream
   cacheTime: 637891661200000000
+=======
+  cacheTime: 637891720560000000
+>>>>>>> Stashed changes
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -1517,30 +1767,6 @@ MonoBehaviour:
     data1: 1157642013
     data2: 4140142849
   Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &166537320988902314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Village/buildingFire
-  m_EditorClassIdentifier: 
-  Name: buildingFire
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3318599012
-    data2: 1782242724
-  Type: 1
   IsGlobal: 0
   Labels: []
   Exists: 1
@@ -1798,7 +2024,7 @@ MonoBehaviour:
     Data3: -953008720
     Data4: -1198921312
   Banks:
-  - {fileID: 593785226542033613}
+  - {fileID: -1179421785029033179}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1807,6 +2033,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+<<<<<<< Updated upstream
 --- !u!114 &593785226542033613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1828,6 +2055,9 @@ MonoBehaviour:
     Value: 2651008
   Exists: 1
 --- !u!114 &767054160371003924
+=======
+--- !u!114 &681853085824152467
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1837,14 +2067,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Menu/ClickButon
+  m_Name: event:/Menu/No
   m_EditorClassIdentifier: 
-  Path: event:/Menu/ClickButon
+  Path: event:/Menu/No
   Guid:
-    Data1: -72450586
-    Data2: 1088917902
-    Data3: 1846565251
-    Data4: -2001326444
+    Data1: 2071862810
+    Data2: 1305887171
+    Data3: -990322532
+    Data4: -1409448865
   Banks:
   - {fileID: -5851118492855874916}
   IsStream: 0
@@ -1853,7 +2083,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1000
+  Length: 1104
 --- !u!114 &775131603440181719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1879,6 +2109,30 @@ MonoBehaviour:
   Labels:
   - Close
   - Far
+  Exists: 1
+--- !u!114 &784544326032717284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterFountin/buildingFire
+  m_EditorClassIdentifier: 
+  Name: buildingFire
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3318599012
+    data2: 1782242724
+  Type: 1
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &914285959439211491
 MonoBehaviour:
@@ -1943,7 +2197,7 @@ MonoBehaviour:
     Data3: -1699700312
     Data4: 755498899
   Banks:
-  - {fileID: 593785226542033613}
+  - {fileID: -1179421785029033179}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -2107,7 +2361,7 @@ MonoBehaviour:
     Data3: 777281936
     Data4: -442767917
   Banks:
-  - {fileID: 593785226542033613}
+  - {fileID: -1179421785029033179}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -2215,14 +2469,14 @@ MonoBehaviour:
     Data3: 1918852999
     Data4: 571116998
   Banks:
-  - {fileID: 6913943958220501979}
+  - {fileID: -2124006077958266388}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 2888881255477497126}
-  - {fileID: -6871543384689862683}
   - {fileID: -6341279745758454449}
+  - {fileID: -1709590066867086821}
   MinDistance: 0.1
   MaxDistance: 2000
   Length: 0
@@ -2506,7 +2760,7 @@ MonoBehaviour:
     Data3: -2084463727
     Data4: 25365923
   Banks:
-  - {fileID: 593785226542033613}
+  - {fileID: -1179421785029033179}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -2515,30 +2769,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 13000
---- !u!114 &4310137896007178379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DragonWings/Height
-  m_EditorClassIdentifier: 
-  Name: Height
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2361461562
-    data2: 1487938493
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &4397398146579571799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2748,6 +2978,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5420973313328494209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EnviromentSounds.assets.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/EnviromentSounds.assets.bank
+  Name: EnviromentSounds.assets
+  StudioPath: bank:/EnviromentSounds.assets
+  lastModified: 637891720550000000
+  FileSizes:
+  - Name: Desktop
+    Value: 10110272
+  Exists: 1
 --- !u!114 &5653368311204505316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2827,34 +3077,6 @@ MonoBehaviour:
   - Close
   - Far
   Exists: 1
---- !u!114 &6216958203661894186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Villager_Alert/AlertHorn
-  m_EditorClassIdentifier: 
-  Path: event:/Villager_Alert/AlertHorn
-  Guid:
-    Data1: 227926480
-    Data2: 1178600996
-    Data3: -2023176314
-    Data4: 1968149550
-  Banks:
-  - {fileID: -5851118492855874916}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 7074515987123785369}
-  MinDistance: 1
-  MaxDistance: 200
-  Length: 0
 --- !u!114 &6350699102772496662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2958,6 +3180,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+<<<<<<< Updated upstream
 --- !u!114 &6846384570465412802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3005,6 +3228,8 @@ MonoBehaviour:
   - Name: Desktop
     Value: 15396000
   Exists: 1
+=======
+>>>>>>> Stashed changes
 --- !u!114 &6930630829928201889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3080,32 +3305,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &7074515987123785369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AlertHorn/CloseToVillage
-  m_EditorClassIdentifier: 
-  Name: CloseToVillage
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3347033762
-    data2: 2101149057
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Close
-  - Far
-  Exists: 1
 --- !u!114 &7083649986170835601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3130,6 +3329,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+<<<<<<< Updated upstream
 --- !u!114 &7350467401042284868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3158,6 +3358,8 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 300
   Length: 32000
+=======
+>>>>>>> Stashed changes
 --- !u!114 &7570638429294133121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3232,6 +3434,34 @@ MonoBehaviour:
   - Bow Draw
   - Bow Release
   Exists: 1
+--- !u!114 &7910585780009613246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mountain
+  m_EditorClassIdentifier: 
+  Path: event:/Mountain
+  Guid:
+    Data1: 202027382
+    Data2: 1144564115
+    Data3: -665445995
+    Data4: -193856668
+  Banks:
+  - {fileID: -5851118492855874916}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8445986371669162856}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13741
 --- !u!114 &8123410470707612205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3340,6 +3570,30 @@ MonoBehaviour:
   - Grass
   - Stone
   - Sand
+  Exists: 1
+--- !u!114 &8445986371669162856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mountain/Distants to Rocks
+  m_EditorClassIdentifier: 
+  Name: Distants to Rocks
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3666147370
+    data2: 1257114757
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &8667412859783651436
 MonoBehaviour:
@@ -3461,6 +3715,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &8902459401069925152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Villager_Alert/AlertHorn
+  m_EditorClassIdentifier: 
+  Path: event:/Villager_Alert/AlertHorn
+  Guid:
+    Data1: 227926480
+    Data2: 1178600996
+    Data3: -2023176314
+    Data4: 1968149550
+  Banks:
+  - {fileID: -5851118492855874916}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3182553184790239140}
+  MinDistance: 1
+  MaxDistance: 200
+  Length: 0
 --- !u!114 &8967716401803707391
 MonoBehaviour:
   m_ObjectHideFlags: 0
