@@ -153,7 +153,7 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637891746020000000
+  lastModified: 637891754540000000
   FileSizes:
   - Name: Desktop
     Value: 41995008
@@ -297,6 +297,34 @@ MonoBehaviour:
   - Bow Draw
   - Bow Release
   Exists: 1
+--- !u!114 &-6664925686464949534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mountain
+  m_EditorClassIdentifier: 
+  Path: event:/Mountain
+  Guid:
+    Data1: -1700766776
+    Data2: 1321439046
+    Data3: -1320530501
+    Data4: -867330184
+  Banks:
+  - {fileID: 8373903147316873648}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7823250313622701524}
+  MinDistance: 1
+  MaxDistance: 250
+  Length: 13741
 --- !u!114 &-6638411242572052541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,7 +392,7 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/DragonBank.bank
   Name: DragonBank
   StudioPath: bank:/DragonBank
-  lastModified: 637891746010000000
+  lastModified: 637891754530000000
   FileSizes:
   - Name: Desktop
     Value: 2651008
@@ -903,6 +931,7 @@ MonoBehaviour:
   - {fileID: 8936340893917819743}
   - {fileID: 8121719616433952166}
   - {fileID: -7913670378634340152}
+  - {fileID: -6664925686464949534}
   EditorParameters:
   - {fileID: 97849846304409154}
   - {fileID: 3258887319113091291}
@@ -913,7 +942,7 @@ MonoBehaviour:
   - {fileID: -7915551751797688967}
   StringsBanks:
   - {fileID: 7922010936149999496}
-  cacheTime: 637891746020000000
+  cacheTime: 637891754550000000
   cacheVersion: 10
 --- !u!114 &97849846304409154
 MonoBehaviour:
@@ -1237,7 +1266,7 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637891746020000000
+  lastModified: 637891754550000000
   FileSizes:
   - Name: Desktop
     Value: 34541440
@@ -1413,6 +1442,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &7823250313622701524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mountain/Distants to Rocks
+  m_EditorClassIdentifier: 
+  Name: Distants to Rocks
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2919151601
+    data2: 3383122923
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7922010936149999496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1428,10 +1481,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637891746020000000
+  lastModified: 637891754540000000
   FileSizes:
   - Name: Desktop
-    Value: 3450
+    Value: 3560
   Exists: 1
 --- !u!114 &8007698590119843052
 MonoBehaviour:
@@ -1552,10 +1605,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/EnviromentSounds.bank
   Name: EnviromentSounds
   StudioPath: bank:/EnviromentSounds
-  lastModified: 637891746020000000
+  lastModified: 637891754540000000
   FileSizes:
   - Name: Desktop
-    Value: 15396000
+    Value: 16351584
   Exists: 1
 --- !u!114 &8700223347054338275
 MonoBehaviour:

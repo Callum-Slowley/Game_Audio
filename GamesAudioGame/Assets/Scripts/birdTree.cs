@@ -16,7 +16,7 @@ public class birdTree : MonoBehaviour
         if(soundLocation != ""){
             birdSound = FMODUnity.RuntimeManager.CreateInstance(soundLocation);
             birdSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(transform.position));
-            birdSound.setParameterByName("buildingFire", 0);
+            birdSound.setParameterByName("Birds intence", 0);
             birdSound.start();
             birdSound.release();
     }
@@ -46,6 +46,9 @@ public class birdTree : MonoBehaviour
             foreach (GameObject fire in fires)
             {
                 fire.SetActive(false);
+                birdSound.setParameterByName("buildingFire", 3f);
+                birdSound.start();
+                birdSound.release();
             }
             
         }
@@ -58,7 +61,7 @@ public class birdTree : MonoBehaviour
                 return;
             }
             else{
-                birdSound.setParameterByName("buildingFire", 1);
+                birdSound.setParameterByName("buildingFire", 1.5f);
                 birdSound.start();
                 birdSound.release();
             }
