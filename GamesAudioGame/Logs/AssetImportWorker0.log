@@ -172,3 +172,24 @@ Received Import Request.
 Start importing Assets/cooltext411750018291142.png using Guid(ffc1dd880224741b3886dc9b03a36bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa011e7723708900d955cdd726b5130b') in 0.017838 seconds
   Import took 0.023825 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.5 MB.
+System memory in use after: 237.7 MB.
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 3927.
+Total: 2.074623 ms (FindLiveObjects: 0.314677 ms CreateObjectMapping: 0.142384 ms MarkObjects: 1.536256 ms  DeleteObjects: 0.080422 ms)
+
