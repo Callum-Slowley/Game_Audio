@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{b39b8db6-c972-4a48-bcba-a5ac01c7f39c}">
+		<property name="assetPath">
+			<value>DragonCharacterSounds/water splash/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>
+		</relationship>
+	</object>
+</objects>
