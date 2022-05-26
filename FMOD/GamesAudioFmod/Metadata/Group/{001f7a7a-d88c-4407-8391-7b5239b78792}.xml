@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{001f7a7a-d88c-4407-8391-7b5239b78792}">
-<<<<<<< Updated upstream
 		<property name="volume">
 			<value>-12.5</value>
 		</property>
-=======
->>>>>>> Stashed changes
 		<property name="name">
 			<value>Music</value>
 		</property>
