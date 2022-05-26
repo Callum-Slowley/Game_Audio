@@ -74,7 +74,7 @@
 			<value>0.100000001</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>500</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{9bb287eb-8173-42c2-9881-242be457478d}" />
@@ -642,7 +642,7 @@
 			<value>0.100000001</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>500</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{174e65cd-ed25-4417-88c4-3819a4e566f9}">

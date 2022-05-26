@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{70bec640-35db-45fd-91c3-24b4afd7dc05}">
 		<property name="volume">
-			<value>-19.5</value>
+			<value>-5.5</value>
 		</property>
 		<property name="name">
 			<value>Alert</value>
@@ -21,6 +21,7 @@
 		<relationship name="effects">
 			<destination>{224c125c-2f68-48ba-bef1-fa9fcfd1ae4d}</destination>
 			<destination>{69aa572c-6079-4ccd-bcdf-bbbc91dd602a}</destination>
+			<destination>{a89f95c3-02d0-4829-974c-0f493be7dc51}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{10bf195d-3f09-47fb-89b1-e4bbbe737263}" />
@@ -31,6 +32,17 @@
 		</property>
 		<property name="gain">
 			<value>30</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{a89f95c3-02d0-4829-974c-0f493be7dc51}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>250.50174</value>
+		</property>
+		<property name="qualityA">
+			<value>0.581413805</value>
 		</property>
 	</object>
 </objects>

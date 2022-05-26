@@ -56,7 +56,7 @@
 			<destination>{b9585bdf-8369-468f-b3c7-316313c274e8}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{77e97824-3585-430a-8ba8-6e1df48b4ecd}</destination>
+			<destination>{fd875d35-d780-4ea0-a6df-7041e4b34afe}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{483d99a9-7aac-47d9-be67-456e10fedafd}">
@@ -110,7 +110,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{da3a6ca7-c7f0-468f-ab32-c3c46d59c487}">
 		<property name="volume">
-			<value>-23.5</value>
+			<value>-12</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{c7079449-285e-493a-a146-b81e37559c2d}</destination>
@@ -134,6 +134,9 @@
 	<object class="SoundScatterer" id="{277cec9a-c20c-443b-864c-b359a2ca97a9}">
 		<property name="length">
 			<value>2</value>
+		</property>
+		<property name="volume">
+			<value>-15</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>82</value>
@@ -199,7 +202,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c99715eb-3adb-4406-ae1e-7b7bcade4cc7}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-15</value>
 		</property>
 		<property name="name">
 			<value>FireHiss</value>
@@ -300,7 +303,6 @@
 	<object class="MixerBusEffectChain" id="{0327471d-7da7-46e5-9f53-2a063c635beb}">
 		<relationship name="effects">
 			<destination>{e66d86e4-7076-4e21-b32f-fbbf180af975}</destination>
-			<destination>{7763a691-b619-40a5-881c-dd3a0d2dc347}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{87451d0a-4c80-4e4a-a3e3-dd8b141af8e8}">
@@ -374,7 +376,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>2.5</value>
+			<value>0.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{3c2faaa4-9145-4963-9fc8-232db89b00d1}">
@@ -421,11 +423,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{46e91182-d110-489c-9fdf-00d79ce8d8ae}" />
 	<object class="MixerBusFader" id="{e66d86e4-7076-4e21-b32f-fbbf180af975}" />
-	<object class="DistortionEffect" id="{7763a691-b619-40a5-881c-dd3a0d2dc347}">
-		<property name="level">
-			<value>0.839999974</value>
-		</property>
-	</object>
 	<object class="SingleSound" id="{992110d4-40f0-485a-a3ae-e6f1b85ddc66}">
 		<relationship name="audioFile">
 			<destination>{49794c98-da76-4430-8ab9-b3d4ce5d61a4}</destination>
@@ -519,7 +516,7 @@
 	</object>
 	<object class="AutomationPoint" id="{b511bf2b-640d-469a-8538-ec7ed25e3962}">
 		<property name="position">
-			<value>0.10000000000000001</value>
+			<value>0.80000000000000004</value>
 		</property>
 		<property name="value">
 			<value>1</value>

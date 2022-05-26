@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3701,7 +3701,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466866386}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -3723,9 +3723,9 @@ MonoBehaviour:
   Params:
   - Name: rain
     Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 117.7
 --- !u!1 &468125456 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
@@ -7813,12 +7813,10 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params:
-  - Name: CloseToVillage
-    Value: 0
-  OverrideAttenuation: 0
+  Params: []
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 52.1
 --- !u!1001 &857749590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16283,9 +16281,9 @@ MonoBehaviour:
   Params:
   - Name: Pain
     Value: 0
-  OverrideAttenuation: 0
-  OverrideMinDistance: 6.8
-  OverrideMaxDistance: 60
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0.18
+  OverrideMaxDistance: 96.44
 --- !u!4 &1707213607 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
@@ -17372,6 +17370,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b53e2fc6367e0d4d8eba025aed4bd0a, type: 3}
+--- !u!1 &1802545382 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1442045409470712, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
+  m_PrefabInstance: {fileID: 1936982896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1802545387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802545382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1700766776
+      Data2: 1321439046
+      Data3: -1320530501
+      Data4: -867330184
+    Path: event:/Mountain
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 272.59
 --- !u!1 &1818229224
 GameObject:
   m_ObjectHideFlags: 0
@@ -19390,43 +19423,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4136697925563684, guid: 5b53e2fc6367e0d4d8eba025aed4bd0a, type: 3}
   m_PrefabInstance: {fileID: 1744612268}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2012115620 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 1787486909}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2012115625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2012115620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: Birds intence
-    Value: 2
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 200
 --- !u!1 &2012732227
 GameObject:
   m_ObjectHideFlags: 0
@@ -21587,6 +21583,10 @@ PrefabInstance:
     - target: {fileID: 5986814536639107643, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
       propertyPath: shiftSpeed
       value: 30000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986814536639107643, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
+      propertyPath: idleCoolDownMax
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5986814538740288736, guid: 1091e3deb95ce4efd928a1f8d108c219, type: 3}
       propertyPath: m_Enabled
