@@ -153,10 +153,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637891804229442712
+  lastModified: 637891754540000000
   FileSizes:
   - Name: Desktop
-    Value: 41995328
+    Value: 41995008
   Exists: 1
 --- !u!114 &-7913670378634340152
 MonoBehaviour:
@@ -214,7 +214,7 @@ MonoBehaviour:
   - {fileID: -3517712681578772017}
   - {fileID: -3324825843042647920}
   MinDistance: 0.1
-  MaxDistance: 500
+  MaxDistance: 2000
   Length: 0
 --- !u!114 &-7707980206455531415
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 6929
+  Length: 2000
 --- !u!114 &-7508714468599343069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,10 +364,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/DragonBank.bank
   Name: DragonBank
   StudioPath: bank:/DragonBank
-  lastModified: 637891804211971926
+  lastModified: 637891754530000000
   FileSizes:
   - Name: Desktop
-    Value: 2982016
+    Value: 2651008
   Exists: 1
 --- !u!114 &-5767970172420434690
 MonoBehaviour:
@@ -938,7 +938,7 @@ MonoBehaviour:
   - {fileID: -7915551751797688967}
   StringsBanks:
   - {fileID: 7922010936149999496}
-  cacheTime: 637891804236235972
+  cacheTime: 637891754550000000
   cacheVersion: 10
 --- !u!114 &97849846304409154
 MonoBehaviour:
@@ -1290,10 +1290,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637891804236235972
+  lastModified: 637891754550000000
   FileSizes:
   - Name: Desktop
-    Value: 34541312
+    Value: 34541440
   Exists: 1
 --- !u!114 &6012483449934081416
 MonoBehaviour:
@@ -1481,10 +1481,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637891804229644489
+  lastModified: 637891754540000000
   FileSizes:
   - Name: Desktop
-    Value: 3596
+    Value: 3560
   Exists: 1
 --- !u!114 &8007698590119843052
 MonoBehaviour:
@@ -1605,10 +1605,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/EnviromentSounds.bank
   Name: EnviromentSounds
   StudioPath: bank:/EnviromentSounds
-  lastModified: 637891804215413014
+  lastModified: 637891754540000000
   FileSizes:
   - Name: Desktop
-    Value: 16351744
+    Value: 16351584
   Exists: 1
 --- !u!114 &8700223347054338275
 MonoBehaviour:
