@@ -37,6 +37,7 @@
 		<relationship name="parameters">
 			<destination>{d10f8acf-b5bb-4d5d-9de2-c0a60b3ba5b3}</destination>
 			<destination>{0c2b44b5-c15b-4644-b111-b2dfea8e5292}</destination>
+			<destination>{f434a06e-170e-4663-985b-8aff6b0c8f0f}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{abf5bfa6-ef41-4f6e-a909-2f8ab45c6574}</destination>
@@ -137,6 +138,11 @@
 	<object class="ParameterProxy" id="{0c2b44b5-c15b-4644-b111-b2dfea8e5292}">
 		<relationship name="preset">
 			<destination>{56598abb-f55c-40a6-97e7-c67c9bd71e91}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{f434a06e-170e-4663-985b-8aff6b0c8f0f}">
+		<relationship name="preset">
+			<destination>{8c8e88f8-01e9-43a8-8516-6fa3f00839ff}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{180289f9-d5b7-492b-843b-6e816d45acca}">
@@ -684,6 +690,9 @@
 		<property name="gain">
 			<value>10</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{b735d504-c9f6-4f9c-83a7-7b20874a8e17}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{794b7996-ad0a-444a-9cf8-5b8f03c25b91}" />
 	<object class="SFXReverbEffect" id="{d1a5d944-4839-4c13-b81d-777402738e52}">
@@ -947,6 +956,14 @@
 		<relationship name="automators">
 			<destination>{3be7b6f4-89fc-40bc-9d5c-a38577967a62}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{b735d504-c9f6-4f9c-83a7-7b20874a8e17}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>gain</value>
+		</property>
+		<property name="amount">
+			<value>3</value>
+		</property>
 	</object>
 	<object class="Automator" id="{47a5d34b-d9ee-4b9b-bb19-f2f1d0ab12cd}">
 		<property name="nameOfPropertyBeingAutomated">

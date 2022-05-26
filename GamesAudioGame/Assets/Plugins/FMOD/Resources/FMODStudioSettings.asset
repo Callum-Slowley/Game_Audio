@@ -371,7 +371,12 @@ MonoBehaviour:
   - Master
   Banks:
   - DragonBank
+  - DragonBank.assets
   - EnviromentSounds
+  - EnviromentSounds.assets
+  - Master.assets
+  - Music
+  - Music.assets
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

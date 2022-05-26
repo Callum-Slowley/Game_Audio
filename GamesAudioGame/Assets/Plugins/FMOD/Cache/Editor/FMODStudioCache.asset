@@ -20,6 +20,7 @@ MonoBehaviour:
     Data4: -1076157200
   Banks:
   - {fileID: -5851118492855874916}
+  - {fileID: 8727026671277315937}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -54,6 +55,50 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &-8147004003880227565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Pitch
+  m_EditorClassIdentifier: 
+  Name: Pitch
+  StudioPath: parameter:/Pitch
+  Min: -90
+  Max: 90
+  Default: 0
+  ID:
+    data1: 3938551472
+    data2: 446315964
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8031735247700285078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EnviromentSounds.assets.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/EnviromentSounds.assets.bank
+  Name: EnviromentSounds.assets
+  StudioPath: bank:/EnviromentSounds.assets
+  lastModified: 637891645713288344
+  FileSizes:
+  - Name: Desktop
+    Value: 15381280
   Exists: 1
 --- !u!114 &-7739289578717285534
 MonoBehaviour:
@@ -107,6 +152,26 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-7542021062033813318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/DragonBank.assets.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/DragonBank.assets.bank
+  Name: DragonBank.assets
+  StudioPath: bank:/DragonBank.assets
+  lastModified: 637891645712110816
+  FileSizes:
+  - Name: Desktop
+    Value: 2587040
+  Exists: 1
 --- !u!114 &-7451904609295330928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,6 +196,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-7440656083878526589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.assets.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.assets.bank
+  Name: Master.assets
+  StudioPath: bank:/Master.assets
+  lastModified: 637891645718888715
+  FileSizes:
+  - Name: Desktop
+    Value: 41761600
+  Exists: 1
 --- !u!114 &-7301704684878703578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,10 +231,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637891206446411279
+  lastModified: 637891645718918639
   FileSizes:
   - Name: Desktop
-    Value: 3266
+    Value: 3646
   Exists: 1
 --- !u!114 &-6871543384689862683
 MonoBehaviour:
@@ -352,10 +437,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637891206446361411
+  lastModified: 637891645714882327
   FileSizes:
   - Name: Desktop
-    Value: 41950656
+    Value: 172996
   Exists: 1
 --- !u!114 &-5849153758374766089
 MonoBehaviour:
@@ -380,6 +465,26 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &-5804615300973063489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.assets.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/Music.assets.bank
+  Name: Music.assets
+  StudioPath: bank:/Music.assets
+  lastModified: 637891645721748357
+  FileSizes:
+  - Name: Desktop
+    Value: 34380448
   Exists: 1
 --- !u!114 &-5736760212656768641
 MonoBehaviour:
@@ -551,8 +656,8 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: -2227037634886559431}
-  MinDistance: 1
-  MaxDistance: 550
+  MinDistance: 0
+  MaxDistance: 150
   Length: 32000
 --- !u!114 &-5054076420847878856
 MonoBehaviour:
@@ -918,6 +1023,54 @@ MonoBehaviour:
   - Close
   - Far
   Exists: 1
+--- !u!114 &-3712709951810257271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DragonWings/Pitch
+  m_EditorClassIdentifier: 
+  Name: Pitch
+  StudioPath: 
+  Min: -90
+  Max: 90
+  Default: 0
+  ID:
+    data1: 3938551472
+    data2: 446315964
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3454969560741616166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DessertLayer/DragonSpeed
+  m_EditorClassIdentifier: 
+  Name: DragonSpeed
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1157642013
+    data2: 4140142849
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3245048601487962064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -944,6 +1097,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: -1991276693828975648}
   - {fileID: 4310137896007178379}
+  - {fileID: -3712709951810257271}
   MinDistance: 1
   MaxDistance: 20
   Length: 780
@@ -1386,6 +1540,11 @@ MonoBehaviour:
   - {fileID: -5851118492855874916}
   - {fileID: 593785226542033613}
   - {fileID: 6913943958220501979}
+  - {fileID: -7542021062033813318}
+  - {fileID: -8031735247700285078}
+  - {fileID: -7440656083878526589}
+  - {fileID: -5804615300973063489}
+  - {fileID: 8727026671277315937}
   EditorEvents:
   - {fileID: 2390610827819856460}
   - {fileID: -3245048601487962064}
@@ -1408,16 +1567,18 @@ MonoBehaviour:
   - {fileID: 7350467401042284868}
   - {fileID: 4287018182741264072}
   - {fileID: 3016910664587620132}
+  - {fileID: 2251561737552665474}
   EditorParameters:
   - {fileID: -754111146722796886}
   - {fileID: 6812120796623803006}
   - {fileID: 7083649986170835601}
   - {fileID: 4397398146579571799}
+  - {fileID: -8147004003880227565}
   MasterBanks:
   - {fileID: -5851118492855874916}
   StringsBanks:
   - {fileID: -7301704684878703578}
-  cacheTime: 637891206446980694
+  cacheTime: 637891645721748357
   cacheVersion: 10
 --- !u!114 &5693926297833138
 MonoBehaviour:
@@ -1745,10 +1906,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/DragonBank.bank
   Name: DragonBank
   StudioPath: bank:/DragonBank
-  lastModified: 637891206442094526
+  lastModified: 637891645710588662
   FileSizes:
   - Name: Desktop
-    Value: 2722528
+    Value: 64604
   Exists: 1
 --- !u!114 &767054160371003924
 MonoBehaviour:
@@ -1926,6 +2087,35 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 35
   Length: 18000
+--- !u!114 &2251561737552665474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DessertLayer
+  m_EditorClassIdentifier: 
+  Path: event:/DessertLayer
+  Guid:
+    Data1: -1231728346
+    Data2: 1199824710
+    Data3: 1056541356
+    Data4: 1545899794
+  Banks:
+  - {fileID: 6913943958220501979}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8166434339640372518}
+  - {fileID: -3454969560741616166}
+  MinDistance: 1
+  MaxDistance: 400
+  Length: 75000
 --- !u!114 &2370282071266080037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,6 +2201,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2423795113903521317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bow/Pitch
+  m_EditorClassIdentifier: 
+  Name: Pitch
+  StudioPath: 
+  Min: -90
+  Max: 90
+  Default: 0
+  ID:
+    data1: 3938551472
+    data2: 446315964
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &2888881255477497126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2094,7 +2308,7 @@ MonoBehaviour:
   - {fileID: -6871543384689862683}
   - {fileID: -6341279745758454449}
   MinDistance: 0.1
-  MaxDistance: 200
+  MaxDistance: 2000
   Length: 0
 --- !u!114 &3026080927803648738
 MonoBehaviour:
@@ -2643,6 +2857,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 214805589497406251}
+  - {fileID: 2423795113903521317}
   MinDistance: 1.4
   MaxDistance: 30
   Length: 4700
@@ -2869,10 +3084,10 @@ MonoBehaviour:
   Path: ../FMOD/GamesAudioFmod/Build/Desktop/EnviromentSounds.bank
   Name: EnviromentSounds
   StudioPath: bank:/EnviromentSounds
-  lastModified: 637891206446980694
+  lastModified: 637891645712260413
   FileSizes:
   - Name: Desktop
-    Value: 10120320
+    Value: 15286
   Exists: 1
 --- !u!114 &6930630829928201889
 MonoBehaviour:
@@ -3024,8 +3239,8 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 166537320988902314}
-  MinDistance: 1
-  MaxDistance: 650
+  MinDistance: 0
+  MaxDistance: 300
   Length: 32000
 --- !u!114 &7570638429294133121
 MonoBehaviour:
@@ -3130,6 +3345,30 @@ MonoBehaviour:
   - Trees
   - Water
   Exists: 1
+--- !u!114 &8166434339640372518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DessertLayer/Height
+  m_EditorClassIdentifier: 
+  Name: Height
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2361461562
+    data2: 1487938493
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &8350386526706381437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3209,6 +3448,26 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &8727026671277315937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/GamesAudioFmod/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 637891645719397624
+  FileSizes:
+  - Name: Desktop
+    Value: 100468
   Exists: 1
 --- !u!114 &8842005637221602153
 MonoBehaviour:

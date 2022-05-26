@@ -220,9 +220,6 @@
 			<destination>{716f47eb-2600-47b0-9ce9-e090ccef26d4}</destination>
 			<destination>{9d564fff-6af2-4b7d-b8a3-ea9c1f24dc8c}</destination>
 			<destination>{340f908f-f359-4a07-8d4e-4055ecd015c6}</destination>
-			<destination>{4d04b648-720e-4430-a3d3-5a986dcfccad}</destination>
-			<destination>{b520915d-2e65-4b7c-a0a9-c8c7c4f91b7b}</destination>
-			<destination>{e1cc45d9-2cd8-4de6-8db2-da0a64fef396}</destination>
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{3c2aaa5c-b07c-471b-ba8c-5e25fe139148}">
@@ -233,7 +230,7 @@
 			<value>67.5</value>
 		</property>
 		<property name="volume">
-			<value>-37</value>
+			<value>-25.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{53bbf052-30b7-40de-bf8d-b330668bcdfb}</destination>
@@ -459,21 +456,6 @@
 			<destination>{9757bef5-49aa-41c6-a8a4-e09d89ec8849}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{4d04b648-720e-4430-a3d3-5a986dcfccad}">
-		<relationship name="audioFile">
-			<destination>{7abc8007-f6b7-4cb2-b0f0-9f1e41be9595}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{b520915d-2e65-4b7c-a0a9-c8c7c4f91b7b}">
-		<relationship name="audioFile">
-			<destination>{6010d615-b0b5-4944-b307-97d12c597cd8}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{e1cc45d9-2cd8-4de6-8db2-da0a64fef396}">
-		<relationship name="audioFile">
-			<destination>{2b539675-8655-4bd1-ad71-04e1ef750f33}</destination>
-		</relationship>
-	</object>
 	<object class="RandomizerModulator" id="{53bbf052-30b7-40de-bf8d-b330668bcdfb}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
@@ -654,7 +636,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>9.99999809</value>
+			<value>0</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.234834462</value>
@@ -665,7 +647,7 @@
 			<value>99.510489510489506</value>
 		</property>
 		<property name="value">
-			<value>10</value>
+			<value>1.90734863e-06</value>
 		</property>
 	</object>
 	<object class="Automator" id="{4bd122c2-1e5a-4deb-a44d-a86a04514607}">

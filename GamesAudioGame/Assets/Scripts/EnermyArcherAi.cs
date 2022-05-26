@@ -75,7 +75,6 @@ public class EnermyArcherAi : MonoBehaviour
         if (AlertPlaybackState == FMOD.Studio.PLAYBACK_STATE.PLAYING || AlertPlaybackState == FMOD.Studio.PLAYBACK_STATE.STARTING)
         {
 
-             Debug.Log( " stopped");
              Alert.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
 
         }
@@ -93,7 +92,6 @@ public class EnermyArcherAi : MonoBehaviour
             Alert.start();
             Alert.release();
         }
-        Debug.Log(AlertPlaybackState);
     }
 
     FMOD.Studio.PLAYBACK_STATE PlaybackState(FMOD.Studio.EventInstance instance)
