@@ -43,6 +43,10 @@ public class birdTree : MonoBehaviour
             birdSound.release();
             birdSound.release();
             rend.enabled = false;
+            foreach (GameObject fire in fires)
+            {
+                fire.SetActive(false);
+            }
             
         }
     }
