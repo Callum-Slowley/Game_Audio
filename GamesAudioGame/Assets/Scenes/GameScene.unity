@@ -271,41 +271,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86e216da0abd45e47b3db079ed802697, type: 3}
---- !u!1 &24269851 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 165315969}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &24269856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24269851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &24663365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -375,41 +340,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &24663366 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 24663365}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &24663367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24663366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1 &27751498
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,41 +461,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4306050776583038, guid: a4a521900c27d504aa19df480329f342, type: 3}
   m_PrefabInstance: {fileID: 49203012}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &60482657 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 1779598356}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &60482662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60482657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &60549292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -736,41 +631,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83a32d464820f564fa2a222324181d2e, type: 3}
---- !u!1 &102668258 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1167479713912840, guid: 83a32d464820f564fa2a222324181d2e, type: 3}
-  m_PrefabInstance: {fileID: 102668257}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &102668259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102668258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &103498178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -840,41 +700,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &103498179 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 103498178}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &103498180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103498179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &104710666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -944,41 +769,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &104710667 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 104710666}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &104710668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104710667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1 &107826716 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
@@ -1573,41 +1363,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4511304530587496, guid: 9ff626153a90e5c4481c4c31d785e108, type: 3}
   m_PrefabInstance: {fileID: 147282176}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &164022707 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 2092067008}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &164022708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164022707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 100
 --- !u!1001 &165315969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2248,43 +2003,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4386378226902378, guid: 04a5c1d17494384448bd49a0fdaafb08, type: 3}
   m_PrefabInstance: {fileID: 210933506}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &210933508 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1072130483238694, guid: 04a5c1d17494384448bd49a0fdaafb08, type: 3}
-  m_PrefabInstance: {fileID: 210933506}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &210933509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210933508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: Distants to Rocks
-    Value: 0
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &240575178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2739,41 +2457,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4979045968579492, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
   m_PrefabInstance: {fileID: 297493622}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &297493624 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 297493622}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &297493625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297493624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 100
 --- !u!1001 &302868611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2930,18 +2613,14 @@ MonoBehaviour:
     Path: event:/Forest Sounds/Birds
   Event: 
   PlayEvent: 1
-  StopEvent: 2
+  StopEvent: 1
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 0.1
-<<<<<<< Updated upstream
   OverrideMaxDistance: 61.8
-=======
-  OverrideMaxDistance: 60
->>>>>>> Stashed changes
 --- !u!4 &308588177 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4457184196990762, guid: 45ebd1f008d1ccb469bb41a81a4d5e6c, type: 3}
@@ -3566,41 +3245,6 @@ Transform:
   m_Father: {fileID: 1818229225}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &401527782 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 811535001}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &401527783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401527782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 100
 --- !u!1001 &411395062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3907,47 +3551,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 400
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
---- !u!1 &442526736 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 1338514105}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &442526737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442526736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 100
 --- !u!4 &445637322 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4101475988005956, guid: 10ae8c643ffe8e8489c5aefd9c2a8dbc, type: 3}
@@ -4022,41 +3627,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &458586524 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 458586523}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &458586525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458586524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1 &466866386 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2854834658224259541, guid: 44d64dcec0667f24fb7f180d726b8d7c, type: 3}
@@ -4331,43 +3901,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
---- !u!1 &486755442 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1083272002639974, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
-  m_PrefabInstance: {fileID: 486755441}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &486755443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486755442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: Distants to Rocks
-    Value: 0
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &487087081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4982,41 +4515,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
---- !u!1 &570777295 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1083272002639974, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
-  m_PrefabInstance: {fileID: 570777294}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &570777296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570777295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &578468093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5481,41 +4979,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4101475988005956, guid: 10ae8c643ffe8e8489c5aefd9c2a8dbc, type: 3}
   m_PrefabInstance: {fileID: 611221615}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &611238421 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 195195025}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &611238422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611238421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 100
 --- !u!4 &612239852 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4136697925563684, guid: 5b53e2fc6367e0d4d8eba025aed4bd0a, type: 3}
@@ -5668,41 +5131,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
---- !u!1 &617919873 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1438846569682568, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
-  m_PrefabInstance: {fileID: 617919872}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &617919874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617919873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &624961689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6138,41 +5566,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04a5c1d17494384448bd49a0fdaafb08, type: 3}
---- !u!1 &639526622 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1072130483238694, guid: 04a5c1d17494384448bd49a0fdaafb08, type: 3}
-  m_PrefabInstance: {fileID: 639526621}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &639526623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639526622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &640751271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6321,26 +5714,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508456378143038, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: Params.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: OverrideAttenuation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: Params.Array.data[0].Name
-      value: Distants to Rocks
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: Params.Array.data[0].Value
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7302,41 +6675,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &764831979 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 764831978}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &764831980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764831979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &770548261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7663,41 +7001,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &796765409 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 796765408}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &796765410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 796765409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!4 &804011098 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
@@ -7772,41 +7075,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &804511268 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 804511267}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &804511269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804511268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1 &807400532
 GameObject:
   m_ObjectHideFlags: 0
@@ -8366,41 +7634,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4592973328385844, guid: a916bffd5af4b1f4a8b6fa26d4fa5323, type: 3}
   m_PrefabInstance: {fileID: 839080811}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &839080813 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1791279438252776, guid: a916bffd5af4b1f4a8b6fa26d4fa5323, type: 3}
-  m_PrefabInstance: {fileID: 839080811}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &839080814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839080813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 120
 --- !u!4 &842230050 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4457184196990762, guid: 45ebd1f008d1ccb469bb41a81a4d5e6c, type: 3}
@@ -9129,41 +8362,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4979045968579492, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
   m_PrefabInstance: {fileID: 895230274}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &895230276 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 895230274}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &895230277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895230276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 100
 --- !u!1 &895877276
 GameObject:
   m_ObjectHideFlags: 0
@@ -9852,41 +9050,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &953326285 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 953326284}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &953326286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953326285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &965433746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9956,41 +9119,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &965433747 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 965433746}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &965433748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965433747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &967900281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10416,41 +9544,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &1036443786 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 1036443785}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1036443787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036443786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &1039314312
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10647,41 +9740,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &1047356000 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 1047355999}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1047356001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047356000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &1047783516
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11025,43 +10083,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83a32d464820f564fa2a222324181d2e, type: 3}
---- !u!1 &1066566149 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1167479713912840, guid: 83a32d464820f564fa2a222324181d2e, type: 3}
-  m_PrefabInstance: {fileID: 1066566148}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1066566150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066566149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: Distants to Rocks
-    Value: 0
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!4 &1067529298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4979045968579492, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
@@ -11618,41 +10639,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4300932604986454, guid: de1399d234791854fbe161d6782f3995, type: 3}
   m_PrefabInstance: {fileID: 1108597190}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1123198714 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 1938629122}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1123198715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123198714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 100
 --- !u!1001 &1128564728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11726,41 +10712,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
---- !u!1 &1128564729 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1083272002639974, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
-  m_PrefabInstance: {fileID: 1128564728}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1128564730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1128564729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &1129909137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13281,41 +12232,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4101475988005956, guid: 10ae8c643ffe8e8489c5aefd9c2a8dbc, type: 3}
   m_PrefabInstance: {fileID: 1244084913}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1244698226 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 2104900640}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1244698227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244698226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 100
 --- !u!1001 &1259946538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14297,43 +13213,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
---- !u!1 &1342462725 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1083272002639974, guid: d1f3f3aca116eea4da738ff4ff033a3a, type: 3}
-  m_PrefabInstance: {fileID: 1342462724}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1342462726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342462725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: Distants to Rocks
-    Value: 0
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1 &1375517209
 GameObject:
   m_ObjectHideFlags: 0
@@ -15026,41 +13905,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
   m_PrefabInstance: {fileID: 1435392678}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1438256725 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 1774617390}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1438256726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1438256725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 60
 --- !u!1001 &1442735982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15198,41 +14042,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4979045968579492, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
   m_PrefabInstance: {fileID: 764831978}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1470804203 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 1942088856}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1470804208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470804203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &1470894880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15270,7 +14079,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.3
+      value: 0.97
       objectReference: {fileID: 0}
     - target: {fileID: 4491438804239794, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15372,41 +14181,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4988163348894976, guid: 60e3f855f21e1da4b8f428299401e583, type: 3}
   m_PrefabInstance: {fileID: 202769387}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1477010133 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 1232570659}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1477010134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1477010133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 60
 --- !u!1001 &1482679866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16294,41 +15068,6 @@ Transform:
   m_Father: {fileID: 1297530243}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 17.589, z: 0}
---- !u!1 &1583003399 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 1226705668}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1583003400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583003399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 100
 --- !u!1001 &1585670384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16726,41 +15465,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &1634844303 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 1634844302}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1634844304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1634844303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &1640109767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17499,43 +16203,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4541368989960596, guid: 83a32d464820f564fa2a222324181d2e, type: 3}
   m_PrefabInstance: {fileID: 1728730952}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1728730954 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1167479713912840, guid: 83a32d464820f564fa2a222324181d2e, type: 3}
-  m_PrefabInstance: {fileID: 1728730952}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1728730955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728730954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: Distants to Rocks
-    Value: 0
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1 &1731576269
 GameObject:
   m_ObjectHideFlags: 0
@@ -17644,41 +16311,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &1740800698 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 1740800697}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1740800699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740800698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &1740868761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18023,41 +16655,6 @@ Transform:
   m_Father: {fileID: 1559172965}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1777271948 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 1688085285}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1777271949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777271948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 198
 --- !u!1001 &1779598356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18237,41 +16834,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &1787213169 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 1787213168}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1787213170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787213169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &1787486909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18419,41 +16981,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
---- !u!1 &1791714702 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539129204668376, guid: 5c81507b205a2324cb3a2e397b4a2777, type: 3}
-  m_PrefabInstance: {fileID: 1791714701}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1791714703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791714702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 180
 --- !u!1001 &1797102641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19136,41 +17663,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83a32d464820f564fa2a222324181d2e, type: 3}
---- !u!1 &1910277768 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1167479713912840, guid: 83a32d464820f564fa2a222324181d2e, type: 3}
-  m_PrefabInstance: {fileID: 1910277767}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1910277769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1910277768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &1919885902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19244,41 +17736,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04a5c1d17494384448bd49a0fdaafb08, type: 3}
---- !u!1 &1919885903 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1072130483238694, guid: 04a5c1d17494384448bd49a0fdaafb08, type: 3}
-  m_PrefabInstance: {fileID: 1919885902}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1919885904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919885903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &1923211051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19644,26 +18101,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508456378143038, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: Params.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: OverrideAttenuation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: Params.Array.data[0].Name
-      value: Distants to Rocks
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: Params.Array.data[0].Value
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20678,11 +19115,7 @@ MonoBehaviour:
     Value: 2
   OverrideAttenuation: 0
   OverrideMinDistance: 0.1
-<<<<<<< Updated upstream
   OverrideMaxDistance: 200
-=======
-  OverrideMaxDistance: 60
->>>>>>> Stashed changes
 --- !u!1 &2012732227
 GameObject:
   m_ObjectHideFlags: 0
@@ -20804,41 +19237,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4160220780851268, guid: 27911b2dfd0a76f40ae2e3d0ec37ded1, type: 3}
   m_PrefabInstance: {fileID: 2014525507}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2031725495 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1635524137293272, guid: c72730fd44cee3440b89fa39c0f48e50, type: 3}
-  m_PrefabInstance: {fileID: 793131766}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2031725496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2031725495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1874087534
-      Data2: 1310279661
-      Data3: 1918852999
-      Data4: 571116998
-    Path: event:/Forest Sounds/Birds
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.1
-  OverrideMaxDistance: 100
 --- !u!1001 &2032618660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21132,10 +19530,6 @@ PrefabInstance:
     - target: {fileID: 4508456378143038, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6838985130536008891, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 400
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74948e9f5a9732b47aeec5af80de6dca, type: 3}
@@ -21643,41 +20037,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04a5c1d17494384448bd49a0fdaafb08, type: 3}
---- !u!1 &2093998814 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1072130483238694, guid: 04a5c1d17494384448bd49a0fdaafb08, type: 3}
-  m_PrefabInstance: {fileID: 2093998813}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2093998815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093998814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1 &2097368283
 GameObject:
   m_ObjectHideFlags: 0
@@ -22273,43 +20632,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4079813579154422, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
   m_PrefabInstance: {fileID: 2121537786}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2121537788 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1438846569682568, guid: 9fc9d0953f7c6364abcd3ebfcd7869ff, type: 3}
-  m_PrefabInstance: {fileID: 2121537786}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2121537789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121537788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 202027382
-      Data2: 1144564115
-      Data3: -665445995
-      Data4: -193856668
-    Path: event:/Mountain
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: Distants to Rocks
-    Value: 0
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 400
 --- !u!1001 &2122684716
 PrefabInstance:
   m_ObjectHideFlags: 0

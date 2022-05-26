@@ -2,11 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{22eafaad-d86b-4287-bbb1-0d65048a41bb}">
 		<property name="volume">
-<<<<<<< Updated upstream
 			<value>-29</value>
-=======
-			<value>-14.5</value>
->>>>>>> Stashed changes
 		</property>
 		<property name="name">
 			<value>Wings</value>
