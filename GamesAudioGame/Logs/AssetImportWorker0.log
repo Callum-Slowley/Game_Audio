@@ -141,3 +141,11 @@ Received Import Request.
 Start importing Assets/Scenes/CalTestingScene using Guid(78d1382bb7368d540abc7fd78affce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b1fe49fb5c32bf8e68a8e4119bc503') in 0.000874 seconds
   Import took 0.005856 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 127.797497 seconds.
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(4ea582d7edfae87438b18d2248b77625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(4ea582d7edfae87438b18d2248b77625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aef122329f0bb059d42cf182142ac56') in 0.038567 seconds
+  Import took 0.044055 seconds .
+
