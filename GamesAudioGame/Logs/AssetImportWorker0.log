@@ -73,3 +73,102 @@ Received Import Request.
 Start importing Assets/Scenes/GameScene.unity using Guid(842b9473014524f54a0ffec1dbb6fd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0e3cf9ab1d1467897cab977295e0b2') in 0.013749 seconds
   Import took 0.019047 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002342 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.dylib
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.so
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.bundle
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.8 MB.
+System memory in use after: 229.0 MB.
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 3911.
+Total: 2.350058 ms (FindLiveObjects: 0.318360 ms CreateObjectMapping: 0.158673 ms MarkObjects: 1.787905 ms  DeleteObjects: 0.084271 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.832080 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bdd604bdbdef4d3791107f0684c037') in 0.018355 seconds
+  Import took 0.023989 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.2 MB.
+System memory in use after: 229.4 MB.
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 3914.
+Total: 2.367634 ms (FindLiveObjects: 0.332859 ms CreateObjectMapping: 0.182053 ms MarkObjects: 1.755341 ms  DeleteObjects: 0.096253 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002315 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 3917.
+Total: 2.642433 ms (FindLiveObjects: 0.531545 ms CreateObjectMapping: 0.190739 ms MarkObjects: 1.789018 ms  DeleteObjects: 0.129474 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1168.490722 seconds.
+  path: Assets/cooltext411750018291142.png
+  artifactKey: Guid(ffc1dd880224741b3886dc9b03a36bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cooltext411750018291142.png using Guid(ffc1dd880224741b3886dc9b03a36bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da080f80e043af34f42d3456db0dead') in 0.872581 seconds
+  Import took 0.877699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.811518 seconds.
+  path: Assets/cooltext411750018291142.png
+  artifactKey: Guid(ffc1dd880224741b3886dc9b03a36bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cooltext411750018291142.png using Guid(ffc1dd880224741b3886dc9b03a36bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa011e7723708900d955cdd726b5130b') in 0.046237 seconds
+  Import took 0.052125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006229 seconds.
+  path: Assets/cooltext411750018291142.png
+  artifactKey: Guid(ffc1dd880224741b3886dc9b03a36bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cooltext411750018291142.png using Guid(ffc1dd880224741b3886dc9b03a36bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa011e7723708900d955cdd726b5130b') in 0.017838 seconds
+  Import took 0.023825 seconds .
+
