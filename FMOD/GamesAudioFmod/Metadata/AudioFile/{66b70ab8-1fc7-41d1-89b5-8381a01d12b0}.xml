@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{66b70ab8-1fc7-41d1-89b5-8381a01d12b0}">
+		<property name="assetPath">
+			<value>Rocks/bbc_caves--cav_07072036.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.8624943310657596</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3ad85519-6323-4841-8cfb-6cde2b0a8d62}</destination>
+		</relationship>
+	</object>
+</objects>
